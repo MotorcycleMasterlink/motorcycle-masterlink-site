@@ -56,9 +56,10 @@
       display: flex;
       background: var(--surface);
       border-bottom: 1px solid var(--border);
+      overflow-x: auto;
     }
     .tab {
-      padding: 13px 20px;
+      padding: 13px 18px;
       font-size: 13px;
       font-weight: 600;
       color: var(--muted);
@@ -67,10 +68,11 @@
       white-space: nowrap;
       transition: all .15s;
       position: relative;
+      flex-shrink: 0;
     }
     .tab .badge {
       position: absolute;
-      top: 8px; right: 8px;
+      top: 8px; right: 6px;
       background: var(--red);
       color: #fff;
       font-size: 10px;
@@ -85,7 +87,7 @@
     .tab:hover { color: var(--text); }
 
     /* ── Content ── */
-    .content { padding: 20px; max-width: 960px; margin: 0 auto; }
+    .content { padding: 20px; max-width: 980px; margin: 0 auto; }
     .section { display: none; }
     .section.active { display: block; }
 
@@ -126,6 +128,7 @@
       overflow: hidden;
     }
     .card-img img { width: 100%; height: 100%; object-fit: cover; }
+    .card-img video { width: 100%; height: 100%; object-fit: cover; }
     .card-img .no-img {
       color: var(--muted); font-size: 12px; text-align: center; padding: 20px;
     }
@@ -156,8 +159,8 @@
     .p-gbp       { background: #4285f4; color: #fff; }
     .card-date { font-size: 11px; color: var(--muted); }
     .card-slot { font-size: 11px; color: var(--muted); }
-
     .card-title { font-size: 14px; font-weight: 600; }
+    .card-notes { font-size: 11px; color: var(--orange); line-height: 1.5; font-style: italic; }
 
     .card-caption {
       font-size: 12px; color: var(--muted); line-height: 1.6;
@@ -180,6 +183,63 @@
     .btn-primary { background: var(--red); color: #fff; }
     .btn-sm { padding: 5px 10px; font-size: 11px; }
 
+    /* ── Today Tab ── */
+    .today-date {
+      font-size: 13px; color: var(--muted); margin-bottom: 20px;
+    }
+    .today-date strong { color: var(--text); }
+    .slot-section { margin-bottom: 32px; }
+    .slot-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .slot-header h3 { font-size: 15px; font-weight: 700; }
+    .slot-time { font-size: 12px; color: var(--muted); }
+    .slot-empty { font-size: 13px; color: var(--muted); font-style: italic; padding: 14px 0; }
+
+    /* ── Schedule Tab ── */
+    .schedule-day { margin-bottom: 28px; }
+    .schedule-day-header {
+      display: flex; align-items: center; gap: 12px;
+      margin-bottom: 12px;
+      padding: 10px 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .schedule-day-header h3 { font-size: 14px; font-weight: 700; }
+    .schedule-day-header .day-label { font-size: 12px; color: var(--muted); }
+    .schedule-day-header .day-stats { margin-left: auto; display: flex; gap: 8px; }
+    .day-stat-chip {
+      font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 12px;
+    }
+    .day-stat-chip.pending  { background: rgba(250,204,21,.15); color: var(--yellow); border: 1px solid rgba(250,204,21,.3); }
+    .day-stat-chip.approved { background: rgba(34,197,94,.15);  color: var(--green);  border: 1px solid rgba(34,197,94,.3);  }
+    .day-stat-chip.draft    { background: rgba(136,136,136,.1); color: var(--muted);  border: 1px solid rgba(136,136,136,.2);}
+    .day-stat-chip.today    { background: rgba(224,32,32,.15);  color: var(--red);    border: 1px solid rgba(224,32,32,.3);  }
+    .schedule-slots { display: flex; flex-direction: column; gap: 8px; padding-left: 14px; }
+    .schedule-slot-row {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 14px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border-color .15s;
+    }
+    .schedule-slot-row:hover { border-color: #555; }
+    .schedule-slot-row .slot-icon { font-size: 16px; width: 24px; text-align: center; }
+    .schedule-slot-row .slot-info { flex: 1; min-width: 0; }
+    .schedule-slot-row .slot-title { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .schedule-slot-row .slot-caption { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }
+    .schedule-slot-row .slot-platform { font-size: 10px; margin-right: 4px; }
+    .schedule-slot-empty {
+      font-size: 12px; color: var(--muted); font-style: italic;
+      padding: 8px 14px; display: flex; align-items: center; gap: 8px;
+    }
+
     /* ── Upload ── */
     .drop-zone {
       border: 2px dashed var(--border);
@@ -199,19 +259,29 @@
     .drop-zone p { font-size: 13px; color: var(--muted); }
     #file-input { display: none; }
 
-    .preview-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-      gap: 10px; margin-top: 16px;
+    .preview-list { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+    .preview-item {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+      display: flex; gap: 14px; align-items: flex-start; padding: 12px;
     }
-    .preview-card {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
+    .preview-thumb {
+      width: 90px; height: 70px; flex-shrink: 0; border-radius: 6px;
+      overflow: hidden; background: #111;
+      display: flex; align-items: center; justify-content: center;
     }
-    .preview-card img { width: 100%; height: 100px; object-fit: cover; }
-    .preview-info { padding: 8px 10px; }
-    .preview-name { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .preview-size { font-size: 10px; color: var(--muted); }
-    .preview-remove { background: none; border: none; color: var(--red); font-size: 11px; cursor: pointer; margin-top: 4px; }
+    .preview-thumb img, .preview-thumb video { width: 100%; height: 100%; object-fit: cover; }
+    .preview-thumb .vid-ico { font-size: 28px; color: var(--muted); }
+    .preview-details { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+    .preview-name { font-size: 12px; color: var(--muted); }
+    .preview-name strong { color: var(--text); }
+    .preview-notes {
+      width: 100%; background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 6px; color: var(--text); font-size: 12px;
+      padding: 7px 10px; font-family: inherit; resize: vertical; min-height: 52px;
+    }
+    .preview-notes:focus { outline: none; border-color: var(--red); }
+    .preview-notes::placeholder { color: var(--muted); }
+    .preview-remove { background: none; border: none; color: var(--red); font-size: 11px; cursor: pointer; }
 
     /* ── Modal ── */
     .overlay {
@@ -286,6 +356,7 @@
     .stat.green  .stat-num { color: var(--green); }
     .stat.blue   .stat-num { color: var(--blue); }
     .stat.muted  .stat-num { color: var(--muted); }
+    .stat.red    .stat-num { color: var(--red); }
   </style>
 </head>
 <body>
@@ -352,8 +423,8 @@
         <input type="text" id="e-img-url" placeholder="https://…">
       </div>
       <div class="field">
-        <label>Notes (internal)</label>
-        <input type="text" id="e-notes" placeholder="Notes for Jarvis or yourself…">
+        <label>Notes / Image prompt for Jarvis</label>
+        <textarea id="e-notes" style="min-height:80px" placeholder="Describe this post for Jarvis, or paste the image prompt…"></textarea>
       </div>
     </div>
     <div class="modal-foot">
@@ -366,7 +437,7 @@
 <!-- Header -->
 <header>
   <span style="font-size:20px">⚙️</span>
-  <h1>MML Content Queue</h1>
+  <h1>MML Content Dashboard</h1>
   <div class="header-right">
     <div class="dot" id="conn-dot" title="Connecting…"></div>
     <button class="btn-ghost" onclick="loadQueue()">↻ Refresh</button>
@@ -375,20 +446,31 @@
 </header>
 
 <div class="tabs">
-  <div class="tab active" id="tab-queue" onclick="switchTab('queue')">
-    Queue<span class="badge" id="badge-queue" style="display:none"></span>
+  <div class="tab active" id="tab-today" onclick="switchTab('today')">
+    Today <span class="badge" id="badge-today" style="display:none"></span>
   </div>
+  <div class="tab" id="tab-queue" onclick="switchTab('queue')">
+    Queue <span class="badge" id="badge-queue" style="display:none"></span>
+  </div>
+  <div class="tab" id="tab-schedule" onclick="switchTab('schedule')">Schedule</div>
   <div class="tab" id="tab-upload" onclick="switchTab('upload')">Upload</div>
   <div class="tab" id="tab-history" onclick="switchTab('history')">History</div>
 </div>
 
 <div class="content">
 
+  <!-- Today -->
+  <div class="section active" id="sec-today">
+    <div class="today-date" id="today-label"></div>
+    <div class="stats" id="today-stats-bar"></div>
+    <div id="today-slots"></div>
+  </div>
+
   <!-- Queue -->
-  <div class="section active" id="sec-queue">
+  <div class="section" id="sec-queue">
     <div class="stats" id="stats-bar"></div>
     <div class="filter-bar">
-      <div class="chip active" data-f="all"   onclick="setFilter('all',this)">All</div>
+      <div class="chip active" data-f="all"      onclick="setFilter('all',this)">All</div>
       <div class="chip"        data-f="pending"  onclick="setFilter('pending',this)">Pending ✓</div>
       <div class="chip"        data-f="approved" onclick="setFilter('approved',this)">Approved</div>
       <div class="chip"        data-f="draft"    onclick="setFilter('draft',this)">Draft</div>
@@ -397,16 +479,26 @@
     <div class="grid" id="queue-grid"></div>
   </div>
 
+  <!-- Schedule -->
+  <div class="section" id="sec-schedule">
+    <div style="margin-bottom:16px;display:flex;align-items:center;gap:12px">
+      <span style="font-size:13px;color:var(--muted)">14-day content calendar</span>
+      <button class="btn-ghost btn-sm" onclick="renderSchedule(7)">7 days</button>
+      <button class="btn-ghost btn-sm" onclick="renderSchedule(14)">14 days</button>
+    </div>
+    <div id="schedule-body"></div>
+  </div>
+
   <!-- Upload -->
   <div class="section" id="sec-upload">
     <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-input').click()">
       <div class="dz-icon">📷</div>
       <h3>Upload Photos or Videos</h3>
-      <p>Drag & drop or tap to select from your phone or desktop</p>
+      <p>Drag & drop or tap to select — add a description so Jarvis knows what it's for</p>
       <input type="file" id="file-input" multiple accept="image/*,video/*">
     </div>
-    <div class="preview-grid" id="preview-grid"></div>
-    <div id="upload-actions" style="display:none;margin-top:16px;display:flex;gap:8px;align-items:center">
+    <div class="preview-list" id="preview-list"></div>
+    <div id="upload-actions" style="display:none;margin-top:16px;gap:8px;align-items:center">
       <button class="btn btn-primary" id="push-btn" onclick="pushUploads()">Push to GitHub</button>
       <span style="font-size:12px;color:var(--muted)" id="upload-status"></span>
     </div>
@@ -488,6 +580,7 @@ async function loadQueue() {
 }
 
 async function save(msg) {
+  data.updated_at = today();
   const res = await ghPut(QUEUE, JSON.stringify(data, null, 2), sha, msg);
   sha = res.content.sha;
 }
@@ -495,8 +588,10 @@ async function save(msg) {
 function render() {
   const active  = data.posts.filter(p => p.status !== 'posted' && p.status !== 'rejected');
   const history = data.posts.filter(p => p.status === 'posted' || p.status === 'rejected');
+  const todayStr = today();
+  const todayPosts = active.filter(p => p.scheduled_date === todayStr);
 
-  // stats
+  // global stats
   const pending  = active.filter(p => p.status === 'pending').length;
   const approved = active.filter(p => p.status === 'approved').length;
   const drafts   = active.filter(p => p.status === 'draft').length;
@@ -508,43 +603,152 @@ function render() {
     <div class="stat blue"><div class="stat-num">${posted}</div><div class="stat-label">Posted</div></div>
   `;
 
-  // badge
+  // queue badge
   const b = document.getElementById('badge-queue');
   if (pending > 0) { b.textContent = pending; b.style.display = ''; }
   else b.style.display = 'none';
 
+  // today badge
+  const tb = document.getElementById('badge-today');
+  const tpending = todayPosts.filter(p => p.status === 'pending').length;
+  if (tpending > 0) { tb.textContent = tpending; tb.style.display = ''; }
+  else tb.style.display = 'none';
+
   // queue grid
   let shown = active;
   if (filter !== 'all') shown = active.filter(p => p.status === filter);
-  shown = [...shown].sort((a,b) => {
-    if (a.scheduled_date !== b.scheduled_date) return a.scheduled_date.localeCompare(b.scheduled_date);
-    return (['morning','midday','evening'].indexOf(a.time_slot||'morning')) - (['morning','midday','evening'].indexOf(b.time_slot||'morning'));
-  });
+  shown = sortByDate(shown);
   document.getElementById('filter-count').textContent = shown.length + ' post' + (shown.length!==1?'s':'');
   renderGrid('queue-grid', shown, false);
   renderGrid('history-grid', history, true);
+
+  renderToday(todayPosts, todayStr);
+  renderSchedule(14);
 }
 
+// ── Today Tab ─────────────────────────────────────────────────────────
+const DAY_NAMES = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+function renderToday(posts, todayStr) {
+  const d = new Date(todayStr + 'T12:00:00');
+  const label = DAY_NAMES[d.getDay()] + ', ' + MONTH_NAMES[d.getMonth()] + ' ' + d.getDate();
+  document.getElementById('today-label').innerHTML = `<strong>${label}</strong> — Daily review`;
+
+  const pending  = posts.filter(p => p.status === 'pending').length;
+  const approved = posts.filter(p => p.status === 'approved').length;
+  const drafts   = posts.filter(p => p.status === 'draft').length;
+  document.getElementById('today-stats-bar').innerHTML = `
+    <div class="stat red"><div class="stat-num">${posts.length}</div><div class="stat-label">Today</div></div>
+    <div class="stat yellow"><div class="stat-num">${pending}</div><div class="stat-label">Need Review</div></div>
+    <div class="stat green"><div class="stat-num">${approved}</div><div class="stat-label">Approved</div></div>
+    <div class="stat muted"><div class="stat-num">${drafts}</div><div class="stat-label">Draft</div></div>
+  `;
+
+  const slots = [
+    { key: 'morning', icon: '🌅', label: 'Morning', time: '7 – 9 AM' },
+    { key: 'midday',  icon: '☀️',  label: 'Midday',  time: '11 AM – 1 PM' },
+    { key: 'evening', icon: '🌙', label: 'Evening', time: '6 – 8 PM' },
+  ];
+
+  document.getElementById('today-slots').innerHTML = slots.map(s => {
+    const sp = posts.filter(p => p.time_slot === s.key);
+    return `<div class="slot-section">
+      <div class="slot-header">
+        <span style="font-size:20px">${s.icon}</span>
+        <h3>${s.label}</h3>
+        <span class="slot-time">${s.time}</span>
+        ${sp.length ? `<span style="margin-left:auto;font-size:11px;color:var(--muted)">${sp.length} post${sp.length>1?'s':''}</span>` : ''}
+      </div>
+      ${sp.length
+        ? `<div class="grid">${sp.map(p => card(p, false)).join('')}</div>`
+        : `<div class="slot-empty">No posts scheduled for this slot</div>`
+      }
+    </div>`;
+  }).join('');
+}
+
+// ── Schedule Tab ──────────────────────────────────────────────────────
+function renderSchedule(days) {
+  if (!data) return;
+  const active = data.posts.filter(p => p.status !== 'rejected');
+  const todayStr = today();
+  const body = document.getElementById('schedule-body');
+  let html = '';
+
+  for (let i = 0; i < days; i++) {
+    const d = new Date();
+    d.setDate(d.getDate() + i);
+    const ds = d.toISOString().slice(0,10);
+    const dayPosts = active.filter(p => p.scheduled_date === ds);
+    const isToday = ds === todayStr;
+
+    const dayName = DAY_NAMES[d.getDay()];
+    const dateLabel = MONTH_NAMES[d.getMonth()] + ' ' + d.getDate();
+
+    const counts = { pending:0, approved:0, draft:0, posted:0 };
+    dayPosts.forEach(p => { counts[p.status] = (counts[p.status]||0) + 1; });
+    const chips = Object.entries(counts)
+      .filter(([,v]) => v > 0)
+      .map(([k,v]) => `<span class="day-stat-chip ${k}">${v} ${k}</span>`)
+      .join('');
+
+    const slots = ['morning','midday','evening'];
+    const slotIcons = { morning:'🌅', midday:'☀️', evening:'🌙' };
+    const slotRows = slots.map(slot => {
+      const sp = dayPosts.filter(p => p.time_slot === slot);
+      if (sp.length === 0) return `<div class="schedule-slot-empty">${slotIcons[slot]} <span>${slot} — empty</span></div>`;
+      return sp.map(p => `
+        <div class="schedule-slot-row" onclick="openEdit('${p.id}')">
+          <div class="slot-icon">${slotIcons[slot]}</div>
+          <div class="slot-info">
+            <div class="slot-title"><span class="platform p-${p.platform} slot-platform">${p.platform}</span> ${escH(p.title)}</div>
+            <div class="slot-caption">${escH((p.caption||'').slice(0,80))}…</div>
+          </div>
+          <span class="status-pill s-${p.status}">${p.status}</span>
+        </div>`).join('');
+    }).join('');
+
+    html += `<div class="schedule-day">
+      <div class="schedule-day-header">
+        <h3>${isToday ? '📍 ' : ''}${dayName}</h3>
+        <span class="day-label">${dateLabel}${isToday ? ' — Today' : ''}</span>
+        <div class="day-stats">${chips || '<span style="font-size:11px;color:var(--muted)">no posts</span>'}</div>
+      </div>
+      <div class="schedule-slots">${slotRows}</div>
+    </div>`;
+  }
+  body.innerHTML = html;
+}
+
+// ── Grid / Cards ──────────────────────────────────────────────────────
 function renderGrid(id, posts, hist) {
   const g = document.getElementById(id);
   if (!posts.length) { g.innerHTML = '<div class="empty"><div class="ico">📭</div><p>Nothing here</p></div>'; return; }
-  g.innerHTML = posts.map(p => card(p, hist)).join('');
+  g.innerHTML = sortByDate(posts).map(p => card(p, hist)).join('');
 }
 
 function card(p, hist) {
-  const img = p.image_url
-    ? `<img src="${escH(p.image_url)}" alt="" loading="lazy">`
-    : `<div class="no-img"><div class="ico">🖼️</div>No image yet</div>`;
+  const isVideo = p.image_url && /\.(mp4|mov|webm|avi)(\?|$)/i.test(p.image_url);
+  let imgHtml;
+  if (p.image_url) {
+    if (isVideo) {
+      imgHtml = `<video src="${escH(p.image_url)}" muted preload="metadata" style="width:100%;height:100%;object-fit:cover"></video>`;
+    } else {
+      imgHtml = `<img src="${escH(p.image_url)}" alt="" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'no-img\\'><div class=\\'ico\\'>🖼️</div>Image not available</div>'">`;
+    }
+  } else {
+    imgHtml = `<div class="no-img"><div class="ico">🖼️</div>No image yet</div>`;
+  }
 
   const cap = p.caption || '';
   const short = cap.slice(0, 160);
   const more = cap.length > 160;
-
   const actions = hist ? '' : cardActions(p);
 
   return `<div class="card" id="card-${p.id}">
     <div class="card-img">
-      ${img}
+      ${imgHtml}
       <span class="status-pill s-${p.status}">${p.status}</span>
     </div>
     <div class="card-body">
@@ -558,6 +762,7 @@ function card(p, hist) {
         <div class="card-caption" id="cap-${p.id}">${escH(short)}${more?'…':''}</div>
         ${more ? `<button class="expand" onclick="toggleCap('${p.id}')">Show more</button>` : ''}
       ` : `<div style="font-size:12px;color:var(--muted);font-style:italic">No caption yet — click Edit</div>`}
+      ${p.notes ? `<div class="card-notes">💡 ${escH(p.notes.slice(0,120))}${p.notes.length>120?'…':''}</div>` : ''}
       ${actions}
     </div>
   </div>`;
@@ -584,6 +789,13 @@ function cardActions(p) {
 
 function slotIcon(slot) {
   return slot === 'morning' ? '🌅' : slot === 'evening' ? '🌙' : '☀️';
+}
+
+function sortByDate(posts) {
+  return [...posts].sort((a,b) => {
+    if (a.scheduled_date !== b.scheduled_date) return a.scheduled_date.localeCompare(b.scheduled_date);
+    return (['morning','midday','evening'].indexOf(a.time_slot||'morning')) - (['morning','midday','evening'].indexOf(b.time_slot||'morning'));
+  });
 }
 
 function toggleCap(id) {
@@ -660,23 +872,30 @@ document.getElementById('file-input').addEventListener('change', e => addFiles(e
 function addFiles(files) {
   Array.from(files).forEach(f => {
     const reader = new FileReader();
-    reader.onload = ev => { uploads.push({ file: f, url: ev.target.result }); renderPreviews(); };
+    reader.onload = ev => { uploads.push({ file: f, url: ev.target.result, notes: '' }); renderPreviews(); };
     reader.readAsDataURL(f);
   });
 }
 function removeUpload(i) { uploads.splice(i,1); renderPreviews(); }
+function updateNotes(i, val) { if (uploads[i]) uploads[i].notes = val; }
+
 function renderPreviews() {
-  const g = document.getElementById('preview-grid');
+  const list = document.getElementById('preview-list');
   const a = document.getElementById('upload-actions');
-  g.innerHTML = uploads.map((u,i) => `
-    <div class="preview-card">
-      <img src="${u.url}" alt="">
-      <div class="preview-info">
-        <div class="preview-name">${escH(u.file.name)}</div>
-        <div class="preview-size">${(u.file.size/1048576).toFixed(1)} MB</div>
+  list.innerHTML = uploads.map((u,i) => {
+    const isVid = u.file.type.startsWith('video/');
+    const thumb = isVid
+      ? `<div class="preview-thumb"><video src="${u.url}" muted preload="metadata"></video></div>`
+      : `<div class="preview-thumb"><img src="${u.url}" alt=""></div>`;
+    return `<div class="preview-item">
+      ${thumb}
+      <div class="preview-details">
+        <div class="preview-name"><strong>${escH(u.file.name)}</strong> — ${(u.file.size/1048576).toFixed(1)} MB</div>
+        <textarea class="preview-notes" placeholder="Describe this for Jarvis — what's the context, what should the caption be about? (optional)" onchange="updateNotes(${i}, this.value)">${escH(u.notes||'')}</textarea>
         <button class="preview-remove" onclick="removeUpload(${i})">Remove</button>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
   a.style.display = uploads.length ? 'flex' : 'none';
 }
 
@@ -691,19 +910,18 @@ async function pushUploads() {
     const base64 = u.url.split(',')[1];
     st.textContent = `Uploading ${i+1}/${uploads.length}…`;
     try {
-      await ghPut(`assets/social/uploads/${slug}`, atob(base64) /* raw binary not needed — use raw b64 */, null, 'Upload: '+slug);
-    } catch(e) {
-      // retry using raw base64 approach
       const r = await fetch(API + REPO + '/contents/assets/social/uploads/' + slug, {
         method: 'PUT',
         headers: { ...hdr(), 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: 'Upload: '+slug, content: base64 })
       });
       if (!r.ok) { toast('Failed: '+u.file.name, 'err'); continue; }
-      const rj = await r.json(); /* update sha if needed */
+    } catch(e) {
+      toast('Failed: '+u.file.name+' — '+e.message, 'err'); continue;
     }
     const url = `https://motorcyclemasterlink.github.io/${REPO.split('/')[1]}/assets/social/uploads/${slug}`;
     if (data) {
+      const isVid = u.file.type.startsWith('video/');
       const draft = {
         id: 'upload-'+Date.now()+'-'+i,
         title: u.file.name.replace(/\.[^.]+$/,'').replace(/[-_]/g,' '),
@@ -713,24 +931,24 @@ async function pushUploads() {
         image_url: url,
         image_path: 'assets/social/uploads/'+slug,
         caption: '',
-        topic: 'upload',
+        topic: isVid ? 'video-upload' : 'upload',
         status: 'draft',
         created_at: today(),
         updated_at: today(),
         posted_at: null,
-        notes: 'Uploaded from dashboard'
+        notes: u.notes || (isVid ? 'Video uploaded from dashboard — add caption and approve' : 'Uploaded from dashboard')
       };
       data.posts.unshift(draft);
       sha = (await ghPut(QUEUE, JSON.stringify(data,null,2), sha, 'Add upload: '+slug)).content.sha;
     }
-    toast('Uploaded: '+u.file.name, 'ok');
+    toast((u.file.type.startsWith('video/') ? '🎥' : '🖼️') + ' Uploaded: '+u.file.name, 'ok');
   }
   uploads = [];
   renderPreviews();
   render();
   btn.disabled = false;
-  st.textContent = 'Done!';
-  setTimeout(()=>st.textContent='', 3000);
+  st.textContent = 'Done! Check the Today or Queue tab.';
+  setTimeout(()=>st.textContent='', 5000);
 }
 
 // ── Tabs ──────────────────────────────────────────────────────────────
@@ -739,6 +957,7 @@ function switchTab(tab) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.getElementById('sec-'+tab).classList.add('active');
   document.getElementById('tab-'+tab).classList.add('active');
+  if (tab === 'schedule' && data) renderSchedule(14);
 }
 
 // ── Filter ────────────────────────────────────────────────────────────
