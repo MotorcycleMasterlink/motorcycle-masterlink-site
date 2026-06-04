@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updated_at": "2026-06-03",
+  "updated_at": "2026-06-04",
   "posts": [
     {
       "id": "posted-maintenance-20260602",
@@ -331,9 +331,9 @@
       "image_path": "",
       "caption": "Quick motorcycle maintenance checklist:\n\n- Tires\n- Brakes\n- Chain/sprockets\n- Fluids\n- Battery\n- Lights\n- Leaks/noises\n\nIf something feels off, get it checked before it becomes expensive.\n\n📲 754-333-7761\n\n#MotorcycleChecklist #MotorcycleRepair #DeerfieldBeach",
       "topic": "7pt-checklist",
-      "status": "pending",
+      "status": "rejected",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-03",
+      "updated_at": "2026-06-04",
       "posted_at": null,
       "notes": "Image prompt: Polished checklist graphic, motorcycle in background, text: 7-POINT RIDER CHECKLIST",
       "date": "2026-06-09"
