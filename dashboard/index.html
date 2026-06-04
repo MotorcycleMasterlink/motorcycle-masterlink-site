@@ -851,12 +851,12 @@ function cardActions(p) {
     <div class="card-actions">
       <button class="btn btn-approve" onclick="approve('${p.id}')">✓ Approve</button>
       <button class="btn btn-edit"    onclick="openEdit('${p.id}')">✏️ Edit</button>
-      <button class="btn btn-reject"  onclick="confirmReject('${p.id}')">✗ Reject</button>
+      <button class="btn btn-reject"  onclick="rejectAndRegen('${p.id}')">✗ Reject + Regen</button>
     </div>`;
   if (p.status === 'approved') return `
     <div class="card-actions">
       <button class="btn btn-edit btn-sm"   onclick="openEdit('${p.id}')">✏️ Edit</button>
-      <button class="btn btn-reject btn-sm" onclick="confirmReject('${p.id}')">Revoke</button>
+      <button class="btn btn-reject btn-sm" onclick="rejectAndRegen('${p.id}')">Reject + Regen</button>
     </div>`;
   if (p.status === 'draft') return `
     <div class="card-actions">
