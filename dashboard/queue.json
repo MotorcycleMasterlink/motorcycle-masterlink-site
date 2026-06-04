@@ -109,17 +109,19 @@
       "platform": "instagram",
       "scheduled_date": "2026-06-04",
       "time_slot": "evening",
-      "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d2-evening-poll-2026-06-04.png",
-      "image_path": "",
+      "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d2-evening-poll-2026-06-04-r1-1780596337.png",
+      "image_path": "assets/social/mml-d2-evening-poll-2026-06-04-r1-1780596337.png",
       "caption": "Quick rider question: what do you check before a weekend ride?\n\nA) Tires\nB) Chain\nC) Brakes\nD) Fluids\nE) I just ride \ud83d\ude05\n\n#MotorcycleMaintenance #RiderLife #SouthFlorida",
       "topic": "pre-ride-poll",
-      "status": "approved",
+      "status": "pending",
       "created_at": "2026-06-03",
       "updated_at": "2026-06-04",
       "posted_at": null,
-      "notes": "Image prompt: Checklist graphic with motorcycle in background",
+      "notes": "Image prompt: Realistic photo of a motorcycle parked at a South Florida shop before a weekend ride, tire gauge and basic hand tools on the workbench nearby, clean composition, no photos",
       "date": "2026-06-04",
-      "image_prompt": "Checklist graphic with motorcycle in background"
+      "image_prompt": "Realistic photo of a motorcycle parked at a South Florida shop before a weekend ride, tire gauge and basic hand tools on the workbench nearby, clean composition, no photos",
+      "regen_count": 1,
+      "last_regen_variation": "fresh alternate concept, no repeated composition from prior image"
     },
     {
       "id": "d3-morning-tires",
@@ -207,9 +209,9 @@
       "created_at": "2026-06-03",
       "updated_at": "2026-06-04",
       "posted_at": null,
-      "notes": "Image prompt: Bold appointment graphic with motorcycle silhouette",
+      "notes": "Image prompt: Realistic photo of a motorcycle on a service lift inside a clean repair shop, mechanic workbench in background, professional lighting, no graphics",
       "date": "2026-06-06",
-      "image_prompt": "Bold appointment graphic with motorcycle silhouette"
+      "image_prompt": "Realistic photo of a motorcycle on a service lift inside a clean repair shop, mechanic workbench in background, professional lighting, no graphics"
     },
     {
       "id": "d4-evening-community",
@@ -279,9 +281,9 @@
       "created_at": "2026-06-03",
       "updated_at": "2026-06-04",
       "posted_at": null,
-      "notes": "Image prompt: Split graphic: left bike starting, right checklist warning icons",
+      "notes": "Image prompt: Realistic photo of a motorcycle in a workshop being inspected before a ride, battery tender and tire gauge nearby, no graphics",
       "date": "2026-06-07",
-      "image_prompt": "Split graphic: left bike starting, right checklist warning icons",
+      "image_prompt": "Realistic photo of a motorcycle in a workshop being inspected before a ride, battery tender and tire gauge nearby, no graphics",
       "regen_count": 6,
       "last_regen_variation": "fresh alternate concept, no repeated composition from prior image"
     },
@@ -317,9 +319,9 @@
       "created_at": "2026-06-03",
       "updated_at": "2026-06-04",
       "posted_at": null,
-      "notes": "Image prompt: Clean service menu graphic with motorcycle silhouette and checkmarks, black white red style",
+      "notes": "Image prompt: Wide realistic photo of an organized motorcycle service bay with bike on lift, tools, tires, oil bottles, and brake parts visible, no graphics",
       "date": "2026-06-08",
-      "image_prompt": "Clean service menu graphic with motorcycle silhouette and checkmarks, black white red style",
+      "image_prompt": "Wide realistic photo of an organized motorcycle service bay with bike on lift, tools, tires, oil bottles, and brake parts visible, no graphics",
       "regen_count": 3,
       "last_regen_variation": "clean bold service graphic, readable text, different background and lighting"
     },
@@ -355,9 +357,9 @@
       "created_at": "2026-06-03",
       "updated_at": "2026-06-04",
       "posted_at": null,
-      "notes": "Image prompt: Polished checklist graphic, motorcycle in background",
+      "notes": "Image prompt: Realistic close-up photo of a mechanic inspecting a motorcycle wheel and brake area with tools nearby, no graphics",
       "date": "2026-06-09",
-      "image_prompt": "Polished checklist graphic, motorcycle in background",
+      "image_prompt": "Realistic close-up photo of a mechanic inspecting a motorcycle wheel and brake area with tools nearby, no graphics",
       "regen_count": 1,
       "last_regen_variation": "fresh alternate concept, no repeated composition from prior image"
     },
@@ -373,10 +375,11 @@
       "topic": "direct-booking",
       "status": "approved",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-03",
+      "updated_at": "2026-06-04",
       "posted_at": null,
-      "notes": "Image prompt: Phone texting graphic with motorcycle shop background, text: TEXT US YOUR BIKE + ISSUE",
-      "date": "2026-06-09"
+      "notes": "Image prompt: Realistic photo of a motorcycle parked outside a small repair shop with a smartphone on a workbench nearby, no graphics",
+      "date": "2026-06-09",
+      "image_prompt": "Realistic photo of a motorcycle parked outside a small repair shop with a smartphone on a workbench nearby, no graphics"
     },
     {
       "id": "d7-evening-brand-close",
@@ -392,9 +395,9 @@
       "created_at": "2026-06-03",
       "updated_at": "2026-06-04",
       "posted_at": null,
-      "notes": "Image prompt: Hero motorcycle shop graphic, warm lighting, . SOLID. READY TO RIDE",
+      "notes": "Image prompt: Hero photo of a clean motorcycle in a warm lit repair shop bay, professional brand feel, no graphics",
       "date": "2026-06-09",
-      "image_prompt": "Hero motorcycle shop graphic, warm lighting, . SOLID. READY TO RIDE"
+      "image_prompt": "Hero photo of a clean motorcycle in a warm lit repair shop bay, professional brand feel, no graphics"
     },
     {
       "id": "d8-morning-battery-health",
@@ -804,8 +807,8 @@
       "time_slot": "midday",
       "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d16-midday-transparent-pricing-2026-06-18.png",
-      "image_prompt": "Clean professional estimate graphic with motorcycle, , trustworthy shop aesthetic",
-      "notes": "Image prompt: Clean professional estimate graphic with motorcycle, , trustworthy shop aesthetic",
+      "image_prompt": "Realistic photo of mechanic writing an estimate on clipboard beside motorcycle parts on workbench, no graphics",
+      "notes": "Image prompt: Realistic photo of mechanic writing an estimate on clipboard beside motorcycle parts on workbench, no graphics",
       "hashtags": "#TransparentPricing #HonestShop #MotorcycleRepair #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-18",
@@ -1040,11 +1043,12 @@
       "time_slot": "midday",
       "status": "draft",
       "image_url": "",
-      "image_prompt": "Service checklist graphic with motorcycle background, clean organized, , professional infographic",
-      "notes": "Image prompt: Service checklist graphic with motorcycle background, clean organized, , professional infographic",
+      "image_prompt": "Realistic photo of motorcycle service items on a workbench beside a bike: oil, gloves, tools, tire gauge, no graphics",
+      "notes": "Image prompt: Realistic photo of motorcycle service items on a workbench beside a bike: oil, gloves, tools, tire gauge, no graphics",
       "hashtags": "#MotorcycleMaintenance #ServiceReminder #BikeRepair #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
-      "scheduled_date": "2026-06-23"
+      "scheduled_date": "2026-06-23",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d21-evening-first-bike",
@@ -1068,11 +1072,12 @@
       "time_slot": "morning",
       "status": "draft",
       "image_url": "",
-      "image_prompt": "Motorcycle inspection checklist graphic, professional clean, , South Florida shop",
-      "notes": "Image prompt: Motorcycle inspection checklist graphic, professional clean, , South Florida shop",
+      "image_prompt": "Realistic photo of mechanic inspecting a motorcycle on lift in clean shop, no graphics",
+      "notes": "Image prompt: Realistic photo of mechanic inspecting a motorcycle on lift in clean shop, no graphics",
       "hashtags": "#MidYearCheck #MotorcycleMaintenance #SouthFlorida #BikeLife #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
-      "scheduled_date": "2026-06-24"
+      "scheduled_date": "2026-06-24",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d22-midday-radiator-service",
@@ -1266,11 +1271,12 @@
       "time_slot": "evening",
       "status": "draft",
       "image_url": "",
-      "image_prompt": "Side by side Harley Davidson vs Japanese motorcycle, bold comparison, , debate graphic",
-      "notes": "Image prompt: Side by side Harley Davidson vs Japanese motorcycle, bold comparison, , debate graphic",
+      "image_prompt": "Realistic photo of two motorcycles parked side by side outside a repair shop, one cruiser and one sport bike style, no graphics",
+      "notes": "Image prompt: Realistic photo of two motorcycles parked side by side outside a repair shop, one cruiser and one sport bike style, no graphics",
       "hashtags": "#HarleyDavidson #MetricBikes #SouthFloridaRiders #MotorcycleMasterLink #BikeDebate",
       "created_at": "2026-06-03T00:00:00Z",
-      "scheduled_date": "2026-06-28"
+      "scheduled_date": "2026-06-28",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d27-morning-chain-stretch",
@@ -1322,11 +1328,12 @@
       "time_slot": "morning",
       "status": "draft",
       "image_url": "",
-      "image_prompt": "Monthly service recap graphic, motorcycle shop professional clean, , business milestone",
-      "notes": "Image prompt: Monthly service recap graphic, motorcycle shop professional clean, , business milestone",
+      "image_prompt": "Realistic wide photo of busy motorcycle shop bay with bikes and organized tools, no graphics",
+      "notes": "Image prompt: Realistic wide photo of busy motorcycle shop bay with bikes and organized tools, no graphics",
       "hashtags": "#MonthEnd #MotorcycleShop #SouthFlorida #MotorcycleMasterLink #June2026",
       "created_at": "2026-06-03T00:00:00Z",
-      "scheduled_date": "2026-06-30"
+      "scheduled_date": "2026-06-30",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d28-midday-review-ask",
@@ -1336,11 +1343,12 @@
       "time_slot": "midday",
       "status": "draft",
       "image_url": "",
-      "image_prompt": "Google review stars graphic with motorcycle shop background, , clean professional grateful",
-      "notes": "Image prompt: Google review stars graphic with motorcycle shop background, , clean professional grateful",
+      "image_prompt": "Realistic photo of smiling motorcycle customer picking up bike outside shop, no graphics",
+      "notes": "Image prompt: Realistic photo of smiling motorcycle customer picking up bike outside shop, no graphics",
       "hashtags": "#GoogleReview #CustomerFeedback #MotorcycleShop #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
-      "scheduled_date": "2026-06-30"
+      "scheduled_date": "2026-06-30",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d28-evening-july-preview",
@@ -1378,11 +1386,12 @@
       "time_slot": "midday",
       "status": "draft",
       "image_url": "",
-      "image_prompt": "Holiday hours sign for motorcycle shop, clean professional graphic, American flag elements",
-      "notes": "Image prompt: Holiday hours sign for motorcycle shop, clean professional graphic, American flag elements",
+      "image_prompt": "Realistic photo of motorcycle shop exterior with bike parked outside and subtle American flag in background, no graphics",
+      "notes": "Image prompt: Realistic photo of motorcycle shop exterior with bike parked outside and subtle American flag in background, no graphics",
       "hashtags": "#HolidayHours #July4th #MotorcycleShop #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
-      "scheduled_date": "2026-07-01"
+      "scheduled_date": "2026-07-01",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d29-evening-happy-4th",
