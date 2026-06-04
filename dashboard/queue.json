@@ -554,14 +554,15 @@
       "caption": "Tag a rider who needs to get their bike serviced.\n\nWe all know one. They've been saying 'I'll get it checked soon' for 6 months.\n\nTag them. Do them a favor.\n\n#SouthFloridaRiders #BikeLife #RiderCommunity\n\n#SouthFloridaRiders #BikeLife #RiderCommunity #MotorcycleMasterLink #Tag",
       "platform": "instagram",
       "time_slot": "evening",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d11-evening-tag-buddy-2026-06-13.png",
       "image_prompt": "Two riders on motorcycles side by side, South Florida backdrop, fun community vibe, text TAG YOUR RIDING BUDDY",
       "notes": "Image prompt: Two riders on motorcycles side by side, South Florida backdrop, fun community vibe, text TAG YOUR RIDING BUDDY",
       "hashtags": "#SouthFloridaRiders #BikeLife #RiderCommunity #MotorcycleMasterLink #Tag",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-13",
-      "image_path": "assets/social/mml-d11-evening-tag-buddy-2026-06-13.png"
+      "image_path": "assets/social/mml-d11-evening-tag-buddy-2026-06-13.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d12-morning-tire-pressure-heat",
