@@ -522,14 +522,15 @@
       "caption": "How often should you lube your chain?\n\nEvery 300-500 miles minimum. More in rain.\n\nSigns you're late:\n- Rusty links\n- Stiff spots\n- Loud rattling\n- Chain slapping\n\nNeglected chains snap. That's a hospital trip, not a repair bill.\n\nWe inspect yours free with any visit.\n\n#ChainMaintenance #MotorcycleSafety #BikeLife #SouthFlorida #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "morning",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d11-morning-chain-lube-2026-06-13.png",
       "image_prompt": "Motorcycle chain close-up with lube spray, dramatic shop lighting, text LUBE YOUR CHAIN, photorealistic maintenance",
       "notes": "Image prompt: Motorcycle chain close-up with lube spray, dramatic shop lighting, text LUBE YOUR CHAIN, photorealistic maintenance",
       "hashtags": "#ChainMaintenance #MotorcycleSafety #BikeLife #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-13",
-      "image_path": "assets/social/mml-d11-morning-chain-lube-2026-06-13.png"
+      "image_path": "assets/social/mml-d11-morning-chain-lube-2026-06-13.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d11-midday-full-service",
