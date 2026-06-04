@@ -442,14 +442,15 @@
       "caption": "South Florida summer means heat, rain, and roads that test your bike.\n\nGet summer-ready:\n- Coolant system check\n- Tire pressure calibration\n- Battery load test\n- Chain and sprocket inspection\n- Brake fluid flush\n\nAll in one visit.\n\nText: 754-333-7761\n\n#SummerRiding #MotorcycleService #SouthFlorida #BikeShop #MotorcycleMasterLink #DeerfieldBeach",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d9-midday-summer-prep-2026-06-11.png",
       "image_prompt": "Motorcycle in bright South Florida sun, shop in background, text SUMMER READY, professional shop graphic photorealistic",
       "notes": "Image prompt: Motorcycle in bright South Florida sun, shop in background, text SUMMER READY, professional shop graphic photorealistic",
       "hashtags": "#SummerRiding #MotorcycleService #SouthFlorida #BikeShop #MotorcycleMasterLink #DeerfieldBeach",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-11",
-      "image_path": "assets/social/mml-d9-midday-summer-prep-2026-06-11.png"
+      "image_path": "assets/social/mml-d9-midday-summer-prep-2026-06-11.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d9-evening-community-ride",
