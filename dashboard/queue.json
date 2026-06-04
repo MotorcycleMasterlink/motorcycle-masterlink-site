@@ -586,14 +586,15 @@
       "caption": "New tire mounted, balanced, and ready in under an hour.\n\nBring your own or we supply. All brands. Cruiser spoke wheels welcome.\n\nNo appointment needed for most tire swaps.\n\nText: 754-333-7761\nDeerfield Beach, FL\n\n#MotorcycleTires #TireInstall #BikeShop #SouthFlorida #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d12-midday-tire-service-2026-06-14.png",
       "image_prompt": "Motorcycle tire being mounted on machine, professional shop, text TIRE SWAP FAST, clean action shop scene",
       "notes": "Image prompt: Motorcycle tire being mounted on machine, professional shop, text TIRE SWAP FAST, clean action shop scene",
       "hashtags": "#MotorcycleTires #TireInstall #BikeShop #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-14",
-      "image_path": "assets/social/mml-d12-midday-tire-service-2026-06-14.png"
+      "image_path": "assets/social/mml-d12-midday-tire-service-2026-06-14.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d12-evening-favorite-road",
