@@ -618,14 +618,15 @@
       "caption": "How thick are your brake pads right now?\n\nNew pad: ~4mm\nTime to replace: ~2mm\nDangerous: under 1mm\n\nMost riders can't tell by feel until it's too late. We can see it in 60 seconds.\n\nFree brake inspection with any service.\n\n754-333-7761\n\n#BrakeSafety #MotorcycleSafety #BikeRepair #SouthFlorida #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "morning",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d13-morning-brake-pads-2026-06-15.png",
       "image_prompt": "Close-up motorcycle brake pad and rotor showing wear indicator, dramatic lighting, text HOW THICK ARE YOUR PADS",
       "notes": "Image prompt: Close-up motorcycle brake pad and rotor showing wear indicator, dramatic lighting, text HOW THICK ARE YOUR PADS",
       "hashtags": "#BrakeSafety #MotorcycleSafety #BikeRepair #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-15",
-      "image_path": "assets/social/mml-d13-morning-brake-pads-2026-06-15.png"
+      "image_path": "assets/social/mml-d13-morning-brake-pads-2026-06-15.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d13-midday-new-bike-service",
