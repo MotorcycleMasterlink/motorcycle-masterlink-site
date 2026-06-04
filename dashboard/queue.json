@@ -297,9 +297,9 @@
       "image_path": "",
       "caption": "Motorcycle Master Link service list:\n\n✅ Maintenance\n✅ Diagnostics\n✅ Tires\n✅ Brakes\n✅ Fluids\n✅ Chain/sprockets\n✅ General repair\n\n📍 105 SE 7th St Unit 4, Deerfield Beach\n📲 754-333-7761\n\n#MotorcycleShop #DeerfieldBeach #MotorcycleService",
       "topic": "service-menu",
-      "status": "pending",
+      "status": "rejected",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-03",
+      "updated_at": "2026-06-04",
       "posted_at": null,
       "notes": "Image prompt: Clean service menu graphic with motorcycle silhouette and checkmarks, black white red style",
       "date": "2026-06-08"
