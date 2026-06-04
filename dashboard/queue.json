@@ -778,14 +778,15 @@
       "caption": "We tell you what it costs before we touch it.\n\nYou approve the work. We do the work. No add-ons, no surprises.\n\nThat's how it should be everywhere. It's how it is here.\n\nText: 754-333-7761\nDeerfield Beach, FL\n\n#TransparentPricing #HonestShop #MotorcycleRepair #SouthFlorida #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d16-midday-transparent-pricing-2026-06-18.png",
       "image_prompt": "Clean professional estimate graphic with motorcycle, text NO SURPRISE INVOICES, trustworthy shop aesthetic",
       "notes": "Image prompt: Clean professional estimate graphic with motorcycle, text NO SURPRISE INVOICES, trustworthy shop aesthetic",
       "hashtags": "#TransparentPricing #HonestShop #MotorcycleRepair #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-18",
-      "image_path": "assets/social/mml-d16-midday-transparent-pricing-2026-06-18.png"
+      "image_path": "assets/social/mml-d16-midday-transparent-pricing-2026-06-18.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d16-evening-night-riders",
