@@ -730,14 +730,15 @@
       "caption": "We text you when your bike is done. No waiting by the phone.\n\nDrop it off. Go live your life. We'll hit you when it's ready.\n\nMost jobs done same day.\n\nText: 754-333-7761 | Deerfield Beach, FL\n\n#MotorcycleShop #QuickTurnaround #BikeRepair #SouthFlorida #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d15-midday-pickup-ready-2026-06-17.png",
       "image_prompt": "Happy rider picking up motorcycle from shop, staff handing over keys, South Florida, text YOUR BIKE IS READY",
       "notes": "Image prompt: Happy rider picking up motorcycle from shop, staff handing over keys, South Florida, text YOUR BIKE IS READY",
       "hashtags": "#MotorcycleShop #QuickTurnaround #BikeRepair #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-17",
-      "image_path": "assets/social/mml-d15-midday-pickup-ready-2026-06-17.png"
+      "image_path": "assets/social/mml-d15-midday-pickup-ready-2026-06-17.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d15-evening-gear-check",
