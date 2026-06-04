@@ -874,14 +874,15 @@
       "caption": "Florida weather: sunny, then instantly sideways rain.\n\nQuick prep:\n- Anti-fog visor or insert\n- Waterproof gloves\n- Slow down on wet roads\n- Avoid painted lines and manhole covers\n- Check tires -- wet traction drops with age\n\nWe carry grip-optimized tires for South Florida.\n\nText: 754-333-7761\n\n#RainRiding #SouthFlorida #MotorcycleSafety #MotorcycleMasterLink #FloridaWeather",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d18-midday-rain-riding-2026-06-20.png",
       "image_prompt": "Motorcycle in Florida rain, dramatic wet road, text RIDING IN THE RAIN, safety-focused cinematic",
       "notes": "Image prompt: Motorcycle in Florida rain, dramatic wet road, text RIDING IN THE RAIN, safety-focused cinematic",
       "hashtags": "#RainRiding #SouthFlorida #MotorcycleSafety #MotorcycleMasterLink #FloridaWeather",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-20",
-      "image_path": "assets/social/mml-d18-midday-rain-riding-2026-06-20.png"
+      "image_path": "assets/social/mml-d18-midday-rain-riding-2026-06-20.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d18-evening-mod-question",
