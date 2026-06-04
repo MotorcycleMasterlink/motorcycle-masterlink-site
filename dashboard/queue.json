@@ -826,14 +826,15 @@
       "caption": "We charge $95/hr labor. Here's what that gets you:\n\n- Experienced hands, not an apprentice\n- Proper tools for your specific bike\n- Diagnosis before replacement\n- Honest recommendation even when it costs us a job\n\nYou get what you pay for in motorcycle repair.\n\nText: 754-333-7761\n\n#HonestShop #MotorcycleRepair #SouthFlorida #MotorcycleMasterLink #LaborRate",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d17-midday-labor-rates-2026-06-19.png",
       "image_prompt": "Professional mechanic confidently working on motorcycle, clean shop, text REAL EXPERTISE REAL RESULTS, trustworthy",
       "notes": "Image prompt: Professional mechanic confidently working on motorcycle, clean shop, text REAL EXPERTISE REAL RESULTS, trustworthy",
       "hashtags": "#HonestShop #MotorcycleRepair #SouthFlorida #MotorcycleMasterLink #LaborRate",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-19",
-      "image_path": "assets/social/mml-d17-midday-labor-rates-2026-06-19.png"
+      "image_path": "assets/social/mml-d17-midday-labor-rates-2026-06-19.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d17-evening-weekend-plans",
