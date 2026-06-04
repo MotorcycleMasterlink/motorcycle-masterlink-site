@@ -570,14 +570,15 @@
       "caption": "Hot pavement plus underinflated tires equals tire failure at speed.\n\nFlorida summer rule: Check pressure every week.\n\nHeat expands air. Cold mornings give false low readings. Check when the tire is cold, first thing.\n\nSpec is on your swingarm sticker.\n\n754-333-7761 | Deerfield Beach\n\n#TireSafety #MotorcycleSafety #SouthFlorida #RiderTips #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "morning",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d12-morning-tire-pressure-heat-2026-06-14.png",
       "image_prompt": "Motorcycle tire with pressure gauge, hot South Florida asphalt, dramatic sun, text CHECK YOUR PRESSURE, photorealistic safety",
       "notes": "Image prompt: Motorcycle tire with pressure gauge, hot South Florida asphalt, dramatic sun, text CHECK YOUR PRESSURE, photorealistic safety",
       "hashtags": "#TireSafety #MotorcycleSafety #SouthFlorida #RiderTips #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-14",
-      "image_path": "assets/social/mml-d12-morning-tire-pressure-heat-2026-06-14.png"
+      "image_path": "assets/social/mml-d12-morning-tire-pressure-heat-2026-06-14.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d12-midday-tire-service",
