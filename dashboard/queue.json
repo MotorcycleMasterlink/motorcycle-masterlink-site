@@ -538,14 +538,15 @@
       "caption": "One shop. Everything your bike needs.\n\nTires. Chains. Brakes. Oil. Electrical. Diagnostics. Towing coordination.\n\nYou don't need four different shops. You need us.\n\nDeerfield Beach, FL\nText: 754-333-7761\n\n#FullServiceShop #MotorcycleRepair #SouthFlorida #MotorcycleMasterLink #DeerfieldBeach",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "rejected",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d11-midday-full-service-2026-06-13.png",
       "image_prompt": "Wide shot professional motorcycle shop interior, multiple bikes on stands, clean organized, text ONE SHOP EVERYTHING, South Florida",
       "notes": "Image prompt: Wide shot professional motorcycle shop interior, multiple bikes on stands, clean organized, text ONE SHOP EVERYTHING, South Florida",
       "hashtags": "#FullServiceShop #MotorcycleRepair #SouthFlorida #MotorcycleMasterLink #DeerfieldBeach",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-13",
-      "image_path": "assets/social/mml-d11-midday-full-service-2026-06-13.png"
+      "image_path": "assets/social/mml-d11-midday-full-service-2026-06-13.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d11-evening-tag-buddy",
