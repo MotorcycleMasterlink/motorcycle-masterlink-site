@@ -650,14 +650,15 @@
       "caption": "We're almost halfway through 2026. How many miles have you put in?\n\nDrop your number below.\n\n#BikeLife #RiderCommunity #SouthFloridaRiders\n\n#BikeLife #RiderCommunity #SouthFloridaRiders #MotorcycleMasterLink #Riding2026",
       "platform": "instagram",
       "time_slot": "evening",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d13-evening-miles-this-year-2026-06-15.png",
       "image_prompt": "Motorcycle on open road South Florida, epic sky, text HOW MANY MILES IN 2026, cinematic community",
       "notes": "Image prompt: Motorcycle on open road South Florida, epic sky, text HOW MANY MILES IN 2026, cinematic community",
       "hashtags": "#BikeLife #RiderCommunity #SouthFloridaRiders #MotorcycleMasterLink #Riding2026",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-15",
-      "image_path": "assets/social/mml-d13-evening-miles-this-year-2026-06-15.png"
+      "image_path": "assets/social/mml-d13-evening-miles-this-year-2026-06-15.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d14-morning-summer-riding-tips",
