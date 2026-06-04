@@ -394,14 +394,15 @@
       "caption": "Free battery test with any service this week.\n\nDon't wait for a no-start. 10 minutes, we'll tell you exactly where you stand.\n\nBook now.\n\nText: 754-333-7761\nDeerfield Beach, FL\n\n#FreeInspection #MotorcycleService #SouthFloridaRiders #BikeShop #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d8-midday-battery-cta-2026-06-10.png",
       "image_prompt": "Clean professional shop with motorcycle on stand, mechanic with diagnostic tool, text FREE BATTERY TEST, photorealistic South Florida",
       "notes": "Image prompt: Clean professional shop with motorcycle on stand, mechanic with diagnostic tool, text FREE BATTERY TEST, photorealistic South Florida",
       "hashtags": "#FreeInspection #MotorcycleService #SouthFloridaRiders #BikeShop #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-10",
-      "image_path": "assets/social/mml-d8-midday-battery-cta-2026-06-10.png"
+      "image_path": "assets/social/mml-d8-midday-battery-cta-2026-06-10.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d8-evening-battery-poll",
