@@ -506,14 +506,15 @@
       "caption": "Riders -- how many miles on your current bike?\n\nUnder 5k / 5-15k / 15-30k / 30k+\n\nDrop it below. Curious what South Florida is riding.\n\n#BikeLife #SouthFloridaRiders #Motorcycles\n\n#BikeLife #SouthFloridaRiders #Motorcycles #MotorcycleMasterLink #RiderLife",
       "platform": "instagram",
       "time_slot": "evening",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d10-evening-miles-poll-2026-06-12.png",
       "image_prompt": "Motorcycle odometer close-up showing high mileage, dramatic focus, text HOW MANY MILES, community engagement",
       "notes": "Image prompt: Motorcycle odometer close-up showing high mileage, dramatic focus, text HOW MANY MILES, community engagement",
       "hashtags": "#BikeLife #SouthFloridaRiders #Motorcycles #MotorcycleMasterLink #RiderLife",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-12",
-      "image_path": "assets/social/mml-d10-evening-miles-poll-2026-06-12.png"
+      "image_path": "assets/social/mml-d10-evening-miles-poll-2026-06-12.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d11-morning-chain-lube",
