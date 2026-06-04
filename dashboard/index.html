@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>MML Content Dashboard</title>
   <style>
     :root {
@@ -190,6 +193,7 @@
     }
     .btn:hover { opacity: .82; }
     .btn:disabled { opacity: .4; cursor: not-allowed; }
+    .btn.busy { opacity: .7; cursor: wait; }
     .btn-approve { background: var(--green); color: #000; }
     .btn-reject  { background: var(--surface2); color: var(--red); border: 1px solid var(--red); }
     .btn-edit    { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
@@ -851,12 +855,12 @@ function cardActions(p) {
     <div class="card-actions">
       <button class="btn btn-approve" onclick="approve('${p.id}')">✓ Approve</button>
       <button class="btn btn-edit"    onclick="openEdit('${p.id}')">✏️ Edit</button>
-      <button class="btn btn-reject"  onclick="rejectAndRegen('${p.id}')">✗ Reject + Regen</button>
+      <button class="btn btn-reject"  onclick="rejectAndRegen('${p.id}', this)">✗ Reject + Regen</button>
     </div>`;
   if (p.status === 'approved') return `
     <div class="card-actions">
       <button class="btn btn-edit btn-sm"   onclick="openEdit('${p.id}')">✏️ Edit</button>
-      <button class="btn btn-reject btn-sm" onclick="rejectAndRegen('${p.id}')">Reject + Regen</button>
+      <button class="btn btn-reject btn-sm" onclick="rejectAndRegen('${p.id}', this)">Reject + Regen</button>
     </div>`;
   if (p.status === 'draft') return `
     <div class="card-actions">
@@ -894,9 +898,16 @@ function confirmReject(id) {
   cardEl.querySelector('.card-body').appendChild(dialog);
 }
 
-async function rejectAndRegen(id) {
+async function rejectAndRegen(id, btn) {
   const p = data.posts.find(x => x.id === id);
   if (!p) return;
+
+  if (btn) {
+    btn.disabled = true;
+    btn.classList.add('busy');
+    btn.textContent = '🔄 Regenerating…';
+  }
+  toast('🔄 Regenerating image for this slot…', 'warn');
 
   // Keep the same calendar slot alive: rejecting an image now clears the old
   // creative and moves this exact post into the regen queue. No dead slot,
@@ -909,12 +920,19 @@ async function rejectAndRegen(id) {
   p.notes = imagePrompt ? 'Image prompt: ' + imagePrompt : 'Rejected — needs new image from Jarvis';
   p.posted_at = null;
   p.updated_at = today();
+  render();
 
   try {
     await save('Reject+Regen: ' + p.title);
-    render();
-    toast('🔄 Rejected image — slot kept and queued for regeneration', 'warn');
-  } catch(e) { toast('Save failed: ' + e.message, 'err'); }
+    toast('✅ Slot saved for regeneration. Refresh in a moment if you are on iPhone shortcut.', 'ok');
+  } catch(e) {
+    toast('Save failed: ' + e.message, 'err');
+    if (btn) {
+      btn.disabled = false;
+      btn.classList.remove('busy');
+      btn.textContent = '✗ Reject + Regen';
+    }
+  }
 }
 
 async function rejectFinal(id) {
