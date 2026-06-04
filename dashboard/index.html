@@ -83,6 +83,7 @@
       display: flex; align-items: center; justify-content: center;
       padding: 0 4px;
     }
+    .tab .badge.orange { background: var(--orange); }
     .tab.active { color: var(--text); border-bottom-color: var(--red); }
     .tab:hover { color: var(--text); }
 
@@ -101,6 +102,7 @@
       color: var(--muted); cursor: pointer; transition: all .15s;
     }
     .chip.active { background: var(--red); color: #fff; border-color: var(--red); }
+    .chip.active.orange-chip { background: var(--orange); border-color: var(--orange); }
     .chip:hover:not(.active) { color: var(--text); border-color: #555; }
     .filter-right { margin-left: auto; }
     .filter-count { font-size: 12px; color: var(--muted); }
@@ -119,6 +121,7 @@
       transition: border-color .15s;
     }
     .card:hover { border-color: #444; }
+    .card.regen-card { border-color: rgba(251,146,60,.3); }
 
     .card-img {
       position: relative;
@@ -133,17 +136,27 @@
       color: var(--muted); font-size: 12px; text-align: center; padding: 20px;
     }
     .card-img .no-img .ico { font-size: 36px; margin-bottom: 8px; }
+    .card-img .regen-overlay {
+      position: absolute; inset: 0;
+      background: rgba(251,146,60,.08);
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: 8px;
+      color: var(--orange); font-size: 12px; font-weight: 600; text-align: center; padding: 16px;
+    }
+    .regen-overlay .spin { font-size: 32px; animation: spin 2s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
 
     .status-pill {
       position: absolute; top: 10px; right: 10px;
       padding: 3px 9px; border-radius: 20px;
       font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px;
     }
-    .s-draft   { background: rgba(136,136,136,.2); color: var(--muted);   border: 1px solid rgba(136,136,136,.3); }
-    .s-pending { background: rgba(250,204,21,.15); color: var(--yellow);  border: 1px solid rgba(250,204,21,.35); }
-    .s-approved{ background: rgba(34,197,94,.15);  color: var(--green);   border: 1px solid rgba(34,197,94,.35);  }
-    .s-posted  { background: rgba(96,165,250,.15); color: var(--blue);    border: 1px solid rgba(96,165,250,.35); }
-    .s-rejected{ background: rgba(224,32,32,.15);  color: var(--red);     border: 1px solid rgba(224,32,32,.35);  }
+    .s-draft    { background: rgba(136,136,136,.2); color: var(--muted);   border: 1px solid rgba(136,136,136,.3); }
+    .s-pending  { background: rgba(250,204,21,.15); color: var(--yellow);  border: 1px solid rgba(250,204,21,.35); }
+    .s-approved { background: rgba(34,197,94,.15);  color: var(--green);   border: 1px solid rgba(34,197,94,.35);  }
+    .s-posted   { background: rgba(96,165,250,.15); color: var(--blue);    border: 1px solid rgba(96,165,250,.35); }
+    .s-rejected { background: rgba(224,32,32,.15);  color: var(--red);     border: 1px solid rgba(224,32,32,.35);  }
+    .s-regen    { background: rgba(251,146,60,.2);  color: var(--orange);  border: 1px solid rgba(251,146,60,.4);  }
 
     .card-body { padding: 14px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
 
@@ -181,7 +194,20 @@
     .btn-reject  { background: var(--surface2); color: var(--red); border: 1px solid var(--red); }
     .btn-edit    { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
     .btn-primary { background: var(--red); color: #fff; }
+    .btn-regen   { background: rgba(251,146,60,.15); color: var(--orange); border: 1px solid rgba(251,146,60,.5); }
     .btn-sm { padding: 5px 10px; font-size: 11px; }
+
+    /* ── Regen notice ── */
+    .regen-notice {
+      background: rgba(251,146,60,.08);
+      border: 1px solid rgba(251,146,60,.25);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 12px;
+      color: var(--orange);
+      display: flex; align-items: center; gap: 8px;
+      margin-bottom: 16px;
+    }
 
     /* ── Today Tab ── */
     .today-date {
@@ -209,15 +235,17 @@
       border: 1px solid var(--border);
       border-radius: 8px;
     }
+    .schedule-day-header.today-header { border-color: rgba(224,32,32,.4); }
     .schedule-day-header h3 { font-size: 14px; font-weight: 700; }
     .schedule-day-header .day-label { font-size: 12px; color: var(--muted); }
-    .schedule-day-header .day-stats { margin-left: auto; display: flex; gap: 8px; }
+    .schedule-day-header .day-stats { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
     .day-stat-chip {
       font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 12px;
     }
     .day-stat-chip.pending  { background: rgba(250,204,21,.15); color: var(--yellow); border: 1px solid rgba(250,204,21,.3); }
     .day-stat-chip.approved { background: rgba(34,197,94,.15);  color: var(--green);  border: 1px solid rgba(34,197,94,.3);  }
     .day-stat-chip.draft    { background: rgba(136,136,136,.1); color: var(--muted);  border: 1px solid rgba(136,136,136,.2);}
+    .day-stat-chip.regen    { background: rgba(251,146,60,.15); color: var(--orange); border: 1px solid rgba(251,146,60,.3); }
     .day-stat-chip.today    { background: rgba(224,32,32,.15);  color: var(--red);    border: 1px solid rgba(224,32,32,.3);  }
     .schedule-slots { display: flex; flex-direction: column; gap: 8px; padding-left: 14px; }
     .schedule-slot-row {
@@ -230,6 +258,7 @@
       transition: border-color .15s;
     }
     .schedule-slot-row:hover { border-color: #555; }
+    .schedule-slot-row.regen-row { border-color: rgba(251,146,60,.3); background: rgba(251,146,60,.04); }
     .schedule-slot-row .slot-icon { font-size: 16px; width: 24px; text-align: center; }
     .schedule-slot-row .slot-info { flex: 1; min-width: 0; }
     .schedule-slot-row .slot-title { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -282,6 +311,18 @@
     .preview-notes:focus { outline: none; border-color: var(--red); }
     .preview-notes::placeholder { color: var(--muted); }
     .preview-remove { background: none; border: none; color: var(--red); font-size: 11px; cursor: pointer; }
+
+    /* ── Reject dialog ── */
+    .reject-dialog {
+      background: var(--surface2);
+      border: 1px solid rgba(224,32,32,.3);
+      border-radius: 8px;
+      padding: 14px;
+      margin-top: 8px;
+      font-size: 12px;
+    }
+    .reject-dialog p { color: var(--muted); margin-bottom: 10px; line-height: 1.5; }
+    .reject-dialog .reject-btns { display: flex; gap: 8px; flex-wrap: wrap; }
 
     /* ── Modal ── */
     .overlay {
@@ -340,6 +381,7 @@
     .toast.ok  { border-left: 3px solid var(--green); }
     .toast.err { border-left: 3px solid var(--red);   }
     .toast.inf { border-left: 3px solid var(--blue);  }
+    .toast.warn { border-left: 3px solid var(--orange); }
     @keyframes tin { from { transform: translateX(110%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
 
     /* ── Stats bar ── */
@@ -357,6 +399,7 @@
     .stat.blue   .stat-num { color: var(--blue); }
     .stat.muted  .stat-num { color: var(--muted); }
     .stat.red    .stat-num { color: var(--red); }
+    .stat.orange .stat-num { color: var(--orange); }
   </style>
 </head>
 <body>
@@ -419,12 +462,12 @@
         <textarea id="e-caption"></textarea>
       </div>
       <div class="field">
-        <label>Image URL (optional — paste or upload)</label>
+        <label>Image URL (paste public URL or upload via Upload tab)</label>
         <input type="text" id="e-img-url" placeholder="https://…">
       </div>
       <div class="field">
-        <label>Notes / Image prompt for Jarvis</label>
-        <textarea id="e-notes" style="min-height:80px" placeholder="Describe this post for Jarvis, or paste the image prompt…"></textarea>
+        <label>Image Prompt for Jarvis (used for AI regeneration)</label>
+        <textarea id="e-notes" style="min-height:80px" placeholder="Describe what the image should look like…"></textarea>
       </div>
     </div>
     <div class="modal-foot">
@@ -463,16 +506,19 @@
   <div class="section active" id="sec-today">
     <div class="today-date" id="today-label"></div>
     <div class="stats" id="today-stats-bar"></div>
+    <div id="regen-notice-today"></div>
     <div id="today-slots"></div>
   </div>
 
   <!-- Queue -->
   <div class="section" id="sec-queue">
     <div class="stats" id="stats-bar"></div>
+    <div id="regen-notice-queue"></div>
     <div class="filter-bar">
       <div class="chip active" data-f="all"      onclick="setFilter('all',this)">All</div>
       <div class="chip"        data-f="pending"  onclick="setFilter('pending',this)">Pending ✓</div>
       <div class="chip"        data-f="approved" onclick="setFilter('approved',this)">Approved</div>
+      <div class="chip"        data-f="regen"    onclick="setFilter('regen',this)">🔄 Regen</div>
       <div class="chip"        data-f="draft"    onclick="setFilter('draft',this)">Draft</div>
       <span class="filter-right filter-count" id="filter-count"></span>
     </div>
@@ -481,10 +527,11 @@
 
   <!-- Schedule -->
   <div class="section" id="sec-schedule">
-    <div style="margin-bottom:16px;display:flex;align-items:center;gap:12px">
-      <span style="font-size:13px;color:var(--muted)">14-day content calendar</span>
+    <div style="margin-bottom:16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+      <span style="font-size:13px;color:var(--muted)">30-day content calendar</span>
       <button class="btn-ghost btn-sm" onclick="renderSchedule(7)">7 days</button>
       <button class="btn-ghost btn-sm" onclick="renderSchedule(14)">14 days</button>
+      <button class="btn-ghost btn-sm" onclick="renderSchedule(30)">30 days</button>
     </div>
     <div id="schedule-body"></div>
   </div>
@@ -522,6 +569,12 @@ let sha   = null;
 let filter = 'all';
 let editId = null;
 let uploads = [];
+
+// Normalize a post — handle 'date' vs 'scheduled_date' field inconsistency
+function norm(p) {
+  if (!p.scheduled_date && p.date) p.scheduled_date = p.date;
+  return p;
+}
 
 // ── Auth ──────────────────────────────────────────────────────────────
 function saveToken() {
@@ -568,6 +621,7 @@ async function loadQueue() {
     const f = await ghGet(QUEUE);
     sha  = f.sha;
     data = JSON.parse(b64utf8(f.content));
+    data.posts.forEach(norm);
     dot('ok');
     render();
     toast('Queue loaded — ' + data.posts.length + ' posts', 'ok');
@@ -595,17 +649,27 @@ function render() {
   const pending  = active.filter(p => p.status === 'pending').length;
   const approved = active.filter(p => p.status === 'approved').length;
   const drafts   = active.filter(p => p.status === 'draft').length;
+  const regens   = active.filter(p => p.status === 'regen').length;
   const posted   = history.filter(p => p.status === 'posted').length;
   document.getElementById('stats-bar').innerHTML = `
     <div class="stat yellow"><div class="stat-num">${pending}</div><div class="stat-label">Pending</div></div>
     <div class="stat green"><div class="stat-num">${approved}</div><div class="stat-label">Approved</div></div>
+    <div class="stat orange"><div class="stat-num">${regens}</div><div class="stat-label">Regen Queue</div></div>
     <div class="stat muted"><div class="stat-num">${drafts}</div><div class="stat-label">Drafts</div></div>
     <div class="stat blue"><div class="stat-num">${posted}</div><div class="stat-label">Posted</div></div>
   `;
 
+  // regen notices
+  const regenNotice = regens > 0
+    ? `<div class="regen-notice">🔄 <strong>${regens} slot${regens>1?'s':''} waiting for a new image</strong> — Jarvis will pick these up automatically. The slot stays reserved.</div>`
+    : '';
+  document.getElementById('regen-notice-queue').innerHTML = regenNotice;
+  document.getElementById('regen-notice-today').innerHTML = '';
+
   // queue badge
   const b = document.getElementById('badge-queue');
-  if (pending > 0) { b.textContent = pending; b.style.display = ''; }
+  if (pending > 0) { b.textContent = pending; b.style.display = ''; b.className = 'badge'; }
+  else if (regens > 0) { b.textContent = regens; b.style.display = ''; b.className = 'badge orange'; }
   else b.style.display = 'none';
 
   // today badge
@@ -623,7 +687,7 @@ function render() {
   renderGrid('history-grid', history, true);
 
   renderToday(todayPosts, todayStr);
-  renderSchedule(14);
+  renderSchedule(30);
 }
 
 // ── Today Tab ─────────────────────────────────────────────────────────
@@ -638,12 +702,19 @@ function renderToday(posts, todayStr) {
   const pending  = posts.filter(p => p.status === 'pending').length;
   const approved = posts.filter(p => p.status === 'approved').length;
   const drafts   = posts.filter(p => p.status === 'draft').length;
+  const regens   = posts.filter(p => p.status === 'regen').length;
   document.getElementById('today-stats-bar').innerHTML = `
     <div class="stat red"><div class="stat-num">${posts.length}</div><div class="stat-label">Today</div></div>
     <div class="stat yellow"><div class="stat-num">${pending}</div><div class="stat-label">Need Review</div></div>
     <div class="stat green"><div class="stat-num">${approved}</div><div class="stat-label">Approved</div></div>
+    ${regens > 0 ? `<div class="stat orange"><div class="stat-num">${regens}</div><div class="stat-label">Regen</div></div>` : ''}
     <div class="stat muted"><div class="stat-num">${drafts}</div><div class="stat-label">Draft</div></div>
   `;
+
+  if (regens > 0) {
+    document.getElementById('regen-notice-today').innerHTML =
+      `<div class="regen-notice">🔄 ${regens} slot${regens>1?'s':''} today ${regens>1?'are':'is'} queued for image regeneration — Jarvis will fill ${regens>1?'them':'it'} before post time.</div>`;
+  }
 
   const slots = [
     { key: 'morning', icon: '🌅', label: 'Morning', time: '7 – 9 AM' },
@@ -686,7 +757,7 @@ function renderSchedule(days) {
     const dayName = DAY_NAMES[d.getDay()];
     const dateLabel = MONTH_NAMES[d.getMonth()] + ' ' + d.getDate();
 
-    const counts = { pending:0, approved:0, draft:0, posted:0 };
+    const counts = {};
     dayPosts.forEach(p => { counts[p.status] = (counts[p.status]||0) + 1; });
     const chips = Object.entries(counts)
       .filter(([,v]) => v > 0)
@@ -699,18 +770,18 @@ function renderSchedule(days) {
       const sp = dayPosts.filter(p => p.time_slot === slot);
       if (sp.length === 0) return `<div class="schedule-slot-empty">${slotIcons[slot]} <span>${slot} — empty</span></div>`;
       return sp.map(p => `
-        <div class="schedule-slot-row" onclick="openEdit('${p.id}')">
+        <div class="schedule-slot-row${p.status==='regen'?' regen-row':''}" onclick="openEdit('${p.id}')">
           <div class="slot-icon">${slotIcons[slot]}</div>
           <div class="slot-info">
             <div class="slot-title"><span class="platform p-${p.platform} slot-platform">${p.platform}</span> ${escH(p.title)}</div>
-            <div class="slot-caption">${escH((p.caption||'').slice(0,80))}…</div>
+            <div class="slot-caption">${p.status==='regen' ? '🔄 New image being generated…' : escH((p.caption||'').slice(0,80)+'…')}</div>
           </div>
           <span class="status-pill s-${p.status}">${p.status}</span>
         </div>`).join('');
     }).join('');
 
     html += `<div class="schedule-day">
-      <div class="schedule-day-header">
+      <div class="schedule-day-header${isToday?' today-header':''}">
         <h3>${isToday ? '📍 ' : ''}${dayName}</h3>
         <span class="day-label">${dateLabel}${isToday ? ' — Today' : ''}</span>
         <div class="day-stats">${chips || '<span style="font-size:11px;color:var(--muted)">no posts</span>'}</div>
@@ -729,9 +800,15 @@ function renderGrid(id, posts, hist) {
 }
 
 function card(p, hist) {
+  const isRegen = p.status === 'regen';
   const isVideo = p.image_url && /\.(mp4|mov|webm|avi)(\?|$)/i.test(p.image_url);
   let imgHtml;
-  if (p.image_url) {
+  if (isRegen) {
+    imgHtml = `<div class="regen-overlay">
+      <div class="spin">🔄</div>
+      <div>New image queued<br><span style="font-size:11px;opacity:.8">Jarvis will regenerate this slot</span></div>
+    </div>`;
+  } else if (p.image_url) {
     if (isVideo) {
       imgHtml = `<video src="${escH(p.image_url)}" muted preload="metadata" style="width:100%;height:100%;object-fit:cover"></video>`;
     } else {
@@ -746,23 +823,24 @@ function card(p, hist) {
   const more = cap.length > 160;
   const actions = hist ? '' : cardActions(p);
 
-  return `<div class="card" id="card-${p.id}">
+  return `<div class="card${isRegen?' regen-card':''}" id="card-${p.id}">
     <div class="card-img">
       ${imgHtml}
-      <span class="status-pill s-${p.status}">${p.status}</span>
+      ${!isRegen ? `<span class="status-pill s-${p.status}">${p.status}</span>` : ''}
     </div>
     <div class="card-body">
       <div class="card-meta">
         <span class="platform p-${p.platform}">${p.platform}</span>
-        <span class="card-date">📅 ${p.scheduled_date}</span>
+        <span class="card-date">📅 ${p.scheduled_date||''}</span>
         <span class="card-slot">${slotIcon(p.time_slot)} ${p.time_slot||''}</span>
+        ${isRegen ? `<span class="status-pill s-regen" style="position:relative;top:auto;right:auto">🔄 regen</span>` : ''}
       </div>
       <div class="card-title">${escH(p.title)}</div>
       ${cap ? `
         <div class="card-caption" id="cap-${p.id}">${escH(short)}${more?'…':''}</div>
         ${more ? `<button class="expand" onclick="toggleCap('${p.id}')">Show more</button>` : ''}
-      ` : `<div style="font-size:12px;color:var(--muted);font-style:italic">No caption yet — click Edit</div>`}
-      ${p.notes ? `<div class="card-notes">💡 ${escH(p.notes.slice(0,120))}${p.notes.length>120?'…':''}</div>` : ''}
+      ` : `<div style="font-size:12px;color:var(--muted);font-style:italic">No caption — click Edit</div>`}
+      ${p.notes && !isRegen ? `<div class="card-notes">💡 ${escH(p.notes.slice(0,120))}${p.notes.length>120?'…':''}</div>` : ''}
       ${actions}
     </div>
   </div>`;
@@ -773,61 +851,106 @@ function cardActions(p) {
     <div class="card-actions">
       <button class="btn btn-approve" onclick="approve('${p.id}')">✓ Approve</button>
       <button class="btn btn-edit"    onclick="openEdit('${p.id}')">✏️ Edit</button>
-      <button class="btn btn-reject"  onclick="reject('${p.id}')">✗ Reject</button>
+      <button class="btn btn-reject"  onclick="confirmReject('${p.id}')">✗ Reject</button>
     </div>`;
   if (p.status === 'approved') return `
     <div class="card-actions">
       <button class="btn btn-edit btn-sm"   onclick="openEdit('${p.id}')">✏️ Edit</button>
-      <button class="btn btn-reject btn-sm" onclick="reject('${p.id}')">Revoke</button>
+      <button class="btn btn-reject btn-sm" onclick="confirmReject('${p.id}')">Revoke</button>
     </div>`;
   if (p.status === 'draft') return `
     <div class="card-actions">
       <button class="btn btn-edit btn-sm" onclick="openEdit('${p.id}')">✏️ Edit / Add Image</button>
     </div>`;
+  if (p.status === 'regen') return `
+    <div class="card-actions">
+      <button class="btn btn-regen btn-sm" disabled>🔄 Waiting for new image…</button>
+      <button class="btn btn-edit btn-sm" onclick="openEdit('${p.id}')">✏️ Edit</button>
+    </div>`;
   return '';
 }
 
-function slotIcon(slot) {
-  return slot === 'morning' ? '🌅' : slot === 'evening' ? '🌙' : '☀️';
+// ── Reject with replacement flow ──────────────────────────────────────
+function confirmReject(id) {
+  const p = data.posts.find(x => x.id === id);
+  if (!p) return;
+  const cardEl = document.getElementById('card-' + id);
+  if (!cardEl) return;
+
+  // Remove any existing dialog
+  const existing = cardEl.querySelector('.reject-dialog');
+  if (existing) { existing.remove(); return; }
+
+  const dialog = document.createElement('div');
+  dialog.className = 'reject-dialog';
+  dialog.innerHTML = `
+    <p>Reject this image and request a new one so the slot stays filled?</p>
+    <div class="reject-btns">
+      <button class="btn btn-regen btn-sm" onclick="rejectAndRegen('${id}')">🔄 Reject + Request New Image</button>
+      <button class="btn btn-reject btn-sm" onclick="rejectFinal('${id}')">✗ Reject Only (leave slot empty)</button>
+      <button class="btn btn-edit btn-sm" onclick="this.closest('.reject-dialog').remove()">Cancel</button>
+    </div>
+  `;
+  cardEl.querySelector('.card-body').appendChild(dialog);
 }
 
-function sortByDate(posts) {
-  return [...posts].sort((a,b) => {
-    if (a.scheduled_date !== b.scheduled_date) return a.scheduled_date.localeCompare(b.scheduled_date);
-    return (['morning','midday','evening'].indexOf(a.time_slot||'morning')) - (['morning','midday','evening'].indexOf(b.time_slot||'morning'));
-  });
-}
+async function rejectAndRegen(id) {
+  const p = data.posts.find(x => x.id === id);
+  if (!p) return;
+  p.status = 'rejected';
+  p.updated_at = today();
 
-function toggleCap(id) {
-  const el = document.getElementById('cap-'+id);
-  const p  = data.posts.find(x => x.id === id);
-  const btn = el.nextElementSibling;
-  if (el.classList.contains('exp')) {
-    el.classList.remove('exp');
-    el.textContent = (p.caption||'').slice(0,160) + '…';
-    if (btn) btn.textContent = 'Show more';
-  } else {
-    el.classList.add('exp');
-    el.textContent = p.caption||'';
-    if (btn) btn.textContent = 'Show less';
+  // Create a replacement entry queued for Jarvis image regeneration
+  const regenId = id + '-regen';
+  const already = data.posts.find(x => x.id === regenId);
+  if (!already) {
+    const imagePrompt = p.image_prompt || (p.notes || '').replace(/^Image prompt:\s*/i, '');
+    const replacement = {
+      id: regenId,
+      title: p.title,
+      caption: p.caption,
+      platform: p.platform,
+      scheduled_date: p.scheduled_date,
+      time_slot: p.time_slot,
+      status: 'regen',
+      image_url: '',
+      image_prompt: imagePrompt,
+      notes: imagePrompt ? 'Image prompt: ' + imagePrompt : 'Rejected — needs new image from Jarvis',
+      hashtags: p.hashtags || '',
+      created_at: p.created_at,
+      updated_at: today()
+    };
+    // Insert right after the original
+    const idx = data.posts.findIndex(x => x.id === id);
+    data.posts.splice(idx + 1, 0, replacement);
   }
+
+  try {
+    await save('Reject+Regen: ' + p.title);
+    render();
+    toast('🔄 Rejected — new image queued for ' + p.title, 'warn');
+  } catch(e) { toast('Save failed: ' + e.message, 'err'); }
 }
 
-// ── Approve / Reject ──────────────────────────────────────────────────
+async function rejectFinal(id) {
+  const p = data.posts.find(x => x.id === id);
+  if (!p) return;
+  p.status = 'rejected';
+  p.updated_at = today();
+  try {
+    await save('Reject: ' + p.title);
+    render();
+    toast('Rejected (slot left empty)', 'inf');
+  } catch(e) { toast('Save failed: ' + e.message, 'err'); }
+}
+
+// ── Approve ───────────────────────────────────────────────────────────
 async function approve(id) {
   const p = data.posts.find(x => x.id === id);
   if (!p) return;
   p.status = 'approved';
   p.updated_at = today();
   try { await save('Approve: ' + p.title); render(); toast('Approved ✓', 'ok'); }
-  catch(e) { toast('Save failed: '+e.message, 'err'); }
-}
-async function reject(id) {
-  const p = data.posts.find(x => x.id === id);
-  if (!p) return;
-  p.status = 'rejected';
-  p.updated_at = today();
-  try { await save('Reject: ' + p.title); render(); toast('Rejected', 'inf'); }
   catch(e) { toast('Save failed: '+e.message, 'err'); }
 }
 
@@ -841,7 +964,8 @@ function openEdit(id) {
   document.getElementById('e-platform').value = p.platform       || 'instagram';
   document.getElementById('e-caption').value  = p.caption        || '';
   document.getElementById('e-img-url').value  = p.image_url      || '';
-  document.getElementById('e-notes').value    = p.notes          || '';
+  const prompt = p.image_prompt || (p.notes || '').replace(/^Image prompt:\s*/i, '');
+  document.getElementById('e-notes').value = prompt;
   open_overlay('edit-overlay');
 }
 function closeEdit() { close_overlay('edit-overlay'); editId = null; }
@@ -852,10 +976,14 @@ async function saveEdit() {
   p.time_slot      = document.getElementById('e-slot').value;
   p.platform       = document.getElementById('e-platform').value;
   p.caption        = document.getElementById('e-caption').value;
-  p.image_url      = document.getElementById('e-img-url').value.trim();
-  p.notes          = document.getElementById('e-notes').value;
+  const newImgUrl  = document.getElementById('e-img-url').value.trim();
+  const newPrompt  = document.getElementById('e-notes').value.trim();
+  p.image_url      = newImgUrl;
+  p.image_prompt   = newPrompt;
+  p.notes          = newPrompt ? 'Image prompt: ' + newPrompt : p.notes;
   p.updated_at     = today();
-  if (p.status === 'draft' && p.caption && p.image_url) p.status = 'pending';
+  // Promote regen/draft to pending if it now has an image
+  if ((p.status === 'draft' || p.status === 'regen') && p.caption && p.image_url) p.status = 'pending';
   try {
     await save('Edit: ' + p.title);
     closeEdit(); render(); toast('Saved', 'ok');
@@ -891,7 +1019,7 @@ function renderPreviews() {
       ${thumb}
       <div class="preview-details">
         <div class="preview-name"><strong>${escH(u.file.name)}</strong> — ${(u.file.size/1048576).toFixed(1)} MB</div>
-        <textarea class="preview-notes" placeholder="Describe this for Jarvis — what's the context, what should the caption be about? (optional)" onchange="updateNotes(${i}, this.value)">${escH(u.notes||'')}</textarea>
+        <textarea class="preview-notes" placeholder="Describe this for Jarvis — context and caption topic (optional)" onchange="updateNotes(${i}, this.value)">${escH(u.notes||'')}</textarea>
         <button class="preview-remove" onclick="removeUpload(${i})">Remove</button>
       </div>
     </div>`;
@@ -957,7 +1085,7 @@ function switchTab(tab) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.getElementById('sec-'+tab).classList.add('active');
   document.getElementById('tab-'+tab).classList.add('active');
-  if (tab === 'schedule' && data) renderSchedule(14);
+  if (tab === 'schedule' && data) renderSchedule(30);
 }
 
 // ── Filter ────────────────────────────────────────────────────────────
@@ -965,10 +1093,34 @@ function setFilter(f, el) {
   filter = f;
   document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active');
+  if (f === 'regen') el.classList.add('orange-chip');
   if (data) render();
 }
 
 // ── Utils ─────────────────────────────────────────────────────────────
+function slotIcon(slot) {
+  return slot === 'morning' ? '🌅' : slot === 'evening' ? '🌙' : '☀️';
+}
+function sortByDate(posts) {
+  return [...posts].sort((a,b) => {
+    if (a.scheduled_date !== b.scheduled_date) return (a.scheduled_date||'').localeCompare(b.scheduled_date||'');
+    return (['morning','midday','evening'].indexOf(a.time_slot||'morning')) - (['morning','midday','evening'].indexOf(b.time_slot||'morning'));
+  });
+}
+function toggleCap(id) {
+  const el = document.getElementById('cap-'+id);
+  const p  = data.posts.find(x => x.id === id);
+  const btn = el.nextElementSibling;
+  if (el.classList.contains('exp')) {
+    el.classList.remove('exp');
+    el.textContent = (p.caption||'').slice(0,160) + '…';
+    if (btn) btn.textContent = 'Show more';
+  } else {
+    el.classList.add('exp');
+    el.textContent = p.caption||'';
+    if (btn) btn.textContent = 'Show less';
+  }
+}
 function dot(state) {
   const d = document.getElementById('conn-dot');
   d.className = 'dot' + (state==='ok'?' ok':state==='err'?' err':'');
