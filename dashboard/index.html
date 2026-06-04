@@ -884,10 +884,10 @@ function confirmReject(id) {
   const dialog = document.createElement('div');
   dialog.className = 'reject-dialog';
   dialog.innerHTML = `
-    <p>Reject this image and request a new one so the slot stays filled?</p>
+    <p>Reject this image? Default keeps the slot and asks Jarvis for a fresh image.</p>
     <div class="reject-btns">
       <button class="btn btn-regen btn-sm" onclick="rejectAndRegen('${id}')">🔄 Reject + Request New Image</button>
-      <button class="btn btn-reject btn-sm" onclick="rejectFinal('${id}')">✗ Reject Only (leave slot empty)</button>
+      <button class="btn btn-reject btn-sm" onclick="rejectFinal('${id}')">✗ Skip Slot Only</button>
       <button class="btn btn-edit btn-sm" onclick="this.closest('.reject-dialog').remove()">Cancel</button>
     </div>
   `;
@@ -897,38 +897,23 @@ function confirmReject(id) {
 async function rejectAndRegen(id) {
   const p = data.posts.find(x => x.id === id);
   if (!p) return;
-  p.status = 'rejected';
-  p.updated_at = today();
 
-  // Create a replacement entry queued for Jarvis image regeneration
-  const regenId = id + '-regen';
-  const already = data.posts.find(x => x.id === regenId);
-  if (!already) {
-    const imagePrompt = p.image_prompt || (p.notes || '').replace(/^Image prompt:\s*/i, '');
-    const replacement = {
-      id: regenId,
-      title: p.title,
-      caption: p.caption,
-      platform: p.platform,
-      scheduled_date: p.scheduled_date,
-      time_slot: p.time_slot,
-      status: 'regen',
-      image_url: '',
-      image_prompt: imagePrompt,
-      notes: imagePrompt ? 'Image prompt: ' + imagePrompt : 'Rejected — needs new image from Jarvis',
-      hashtags: p.hashtags || '',
-      created_at: p.created_at,
-      updated_at: today()
-    };
-    // Insert right after the original
-    const idx = data.posts.findIndex(x => x.id === id);
-    data.posts.splice(idx + 1, 0, replacement);
-  }
+  // Keep the same calendar slot alive: rejecting an image now clears the old
+  // creative and moves this exact post into the regen queue. No dead slot,
+  // no duplicate replacement post to confuse the schedule.
+  const imagePrompt = p.image_prompt || (p.notes || '').replace(/^Image prompt:\s*/i, '');
+  p.status = 'regen';
+  p.image_url = '';
+  p.image_path = '';
+  p.image_prompt = imagePrompt;
+  p.notes = imagePrompt ? 'Image prompt: ' + imagePrompt : 'Rejected — needs new image from Jarvis';
+  p.posted_at = null;
+  p.updated_at = today();
 
   try {
     await save('Reject+Regen: ' + p.title);
     render();
-    toast('🔄 Rejected — new image queued for ' + p.title, 'warn');
+    toast('🔄 Rejected image — slot kept and queued for regeneration', 'warn');
   } catch(e) { toast('Save failed: ' + e.message, 'err'); }
 }
 
@@ -940,7 +925,7 @@ async function rejectFinal(id) {
   try {
     await save('Reject: ' + p.title);
     render();
-    toast('Rejected (slot left empty)', 'inf');
+    toast('Slot skipped', 'inf');
   } catch(e) { toast('Save failed: ' + e.message, 'err'); }
 }
 
