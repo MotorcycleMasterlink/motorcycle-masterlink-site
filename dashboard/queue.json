@@ -842,14 +842,15 @@
       "caption": "It's almost the weekend. What's the plan?\n\nA) Solo sunrise run\nB) Group ride\nC) Track day\nD) Bike still in the shop\n\nDrop it below.\n\n#WeekendRide #SouthFloridaRiders #BikeLife\n\n#WeekendRide #SouthFloridaRiders #BikeLife #MotorcycleMasterLink #RiderWeekend",
       "platform": "instagram",
       "time_slot": "evening",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d17-evening-weekend-plans-2026-06-19.png",
       "image_prompt": "Motorcycle ready for weekend ride, sunrise South Florida, adventure feel, text WEEKEND RIDE PLANS, cinematic warm",
       "notes": "Image prompt: Motorcycle ready for weekend ride, sunrise South Florida, adventure feel, text WEEKEND RIDE PLANS, cinematic warm",
       "hashtags": "#WeekendRide #SouthFloridaRiders #BikeLife #MotorcycleMasterLink #RiderWeekend",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-19",
-      "image_path": "assets/social/mml-d17-evening-weekend-plans-2026-06-19.png"
+      "image_path": "assets/social/mml-d17-evening-weekend-plans-2026-06-19.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d18-morning-clutch-health",
