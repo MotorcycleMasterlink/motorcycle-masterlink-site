@@ -634,14 +634,15 @@
       "caption": "New bike owners: your first service is not optional.\n\nBreak-in oil is full of metal shavings. It needs to come out at 600-1000 miles.\n\nSkipping it shortens engine life significantly.\n\nWe do first-service oil changes, chain adjustments, and full checks.\n\nText: 754-333-7761\n\n#NewBike #MotorcycleMaintenance #BreakIn #SouthFlorida #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d13-midday-new-bike-service-2026-06-15.png",
       "image_prompt": "Brand new motorcycle in shop, fresh delivery feel, mechanic inspecting, text FIRST SERVICE MATTERS, photorealistic",
       "notes": "Image prompt: Brand new motorcycle in shop, fresh delivery feel, mechanic inspecting, text FIRST SERVICE MATTERS, photorealistic",
       "hashtags": "#NewBike #MotorcycleMaintenance #BreakIn #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-15",
-      "image_path": "assets/social/mml-d13-midday-new-bike-service-2026-06-15.png"
+      "image_path": "assets/social/mml-d13-midday-new-bike-service-2026-06-15.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d13-evening-miles-this-year",
