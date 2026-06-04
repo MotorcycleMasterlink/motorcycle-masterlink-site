@@ -490,14 +490,15 @@
       "caption": "Tired of guessing what's wrong?\n\nOur diagnostic scan cuts straight to the answer. No parts-swapping, no guessing game.\n\nFlat rate. Same-day results on most bikes.\n\nText us your bike and what it's doing.\n\nText: 754-333-7761\nDeerfield Beach, FL\n\n#MotorcycleDiagnostics #BikeRepair #SouthFlorida #MotorcycleMasterLink #DeerfieldBeach",
       "platform": "instagram",
       "time_slot": "midday",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d10-midday-diagnostic-promo-2026-06-12.png",
       "image_prompt": "Professional mechanic with diagnostic tool connected to motorcycle, clean shop, text DIAGNOSTIC SCAN, South Florida",
       "notes": "Image prompt: Professional mechanic with diagnostic tool connected to motorcycle, clean shop, text DIAGNOSTIC SCAN, South Florida",
       "hashtags": "#MotorcycleDiagnostics #BikeRepair #SouthFlorida #MotorcycleMasterLink #DeerfieldBeach",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-12",
-      "image_path": "assets/social/mml-d10-midday-diagnostic-promo-2026-06-12.png"
+      "image_path": "assets/social/mml-d10-midday-diagnostic-promo-2026-06-12.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d10-evening-miles-poll",
