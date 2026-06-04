@@ -998,14 +998,15 @@
       "caption": "Dead battery that keeps dying is not a battery problem -- it's a charging problem.\n\nYour stator, regulator/rectifier, and wiring all have to work together.\n\nTest: run bike 10 minutes, check voltage across battery. Should be 13.5-14.5V. Below that, you're draining not charging.\n\nWe diagnose the whole system.\n\n754-333-7761\n\n#ChargingSystem #StatorRepair #MotorcycleDiagnostics #SouthFlorida #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "morning",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d21-morning-charging-system-2026-06-23.png",
       "image_prompt": "Multimeter on motorcycle battery while running, charging system test, shop setting, text CHARGING SYSTEM CHECK",
       "notes": "Image prompt: Multimeter on motorcycle battery while running, charging system test, shop setting, text CHARGING SYSTEM CHECK",
       "hashtags": "#ChargingSystem #StatorRepair #MotorcycleDiagnostics #SouthFlorida #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-23",
-      "image_path": "assets/social/mml-d21-morning-charging-system-2026-06-23.png"
+      "image_path": "assets/social/mml-d21-morning-charging-system-2026-06-23.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d21-midday-service-reminder",
