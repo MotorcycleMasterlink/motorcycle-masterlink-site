@@ -890,14 +890,15 @@
       "caption": "Stock or built?\n\nTell us what you've done to your bike. Exhaust, suspension, bars, tires, electronics -- anything.\n\nBest build in the comments wins bragging rights.\n\n#BikeBuilds #MotorcycleMods #SouthFloridaRiders\n\n#BikeBuilds #MotorcycleMods #SouthFloridaRiders #MotorcycleMasterLink #CustomBike",
       "platform": "instagram",
       "time_slot": "evening",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d18-evening-mod-question-2026-06-20.png",
       "image_prompt": "Custom modified motorcycle with aftermarket exhaust and accessories, dramatic studio lighting, text WHAT ARE YOU RUNNING",
       "notes": "Image prompt: Custom modified motorcycle with aftermarket exhaust and accessories, dramatic studio lighting, text WHAT ARE YOU RUNNING",
       "hashtags": "#BikeBuilds #MotorcycleMods #SouthFloridaRiders #MotorcycleMasterLink #CustomBike",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-20",
-      "image_path": "assets/social/mml-d18-evening-mod-question-2026-06-20.png"
+      "image_path": "assets/social/mml-d18-evening-mod-question-2026-06-20.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d19-morning-fuel-system",
