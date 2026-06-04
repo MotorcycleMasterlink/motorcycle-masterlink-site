@@ -458,14 +458,15 @@
       "caption": "South Florida riders -- what's your go-to route right now?\n\nA1A north? Alligator Alley? Turnpike loop? Something nobody knows about?\n\nDrop it in the comments. Let's build the list.\n\n#SouthFloridaRiders #FloridaRides #MotorcycleLife\n\n#SouthFloridaRiders #FloridaRides #MotorcycleLife #RiderCommunity #MotorcycleMasterLink",
       "platform": "instagram",
       "time_slot": "evening",
-      "status": "pending",
+      "status": "approved",
       "image_url": "https://motorcyclemasterlink.github.io/motorcycle-masterlink-site/assets/social/mml-d9-evening-community-ride-2026-06-11.png",
       "image_prompt": "Motorcycle on scenic coastal South Florida road at sunset, cinematic, text WHERE ARE YOU RIDING, beautiful landscape",
       "notes": "Image prompt: Motorcycle on scenic coastal South Florida road at sunset, cinematic, text WHERE ARE YOU RIDING, beautiful landscape",
       "hashtags": "#SouthFloridaRiders #FloridaRides #MotorcycleLife #RiderCommunity #MotorcycleMasterLink",
       "created_at": "2026-06-03T00:00:00Z",
       "scheduled_date": "2026-06-11",
-      "image_path": "assets/social/mml-d9-evening-community-ride-2026-06-11.png"
+      "image_path": "assets/social/mml-d9-evening-community-ride-2026-06-11.png",
+      "updated_at": "2026-06-04"
     },
     {
       "id": "d10-morning-electrical-gremlins",
