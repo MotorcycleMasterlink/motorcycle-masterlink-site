@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updated_at": "2026-06-05",
+  "updated_at": "2026-06-06",
   "posts": [
     {
       "id": "posted-maintenance-20260602",
@@ -187,10 +187,10 @@
       "image_path": "assets/social/mml-d4-morning-fluids-2026-06-06.png",
       "caption": "Old fluids can make a good bike feel tired.\n\nOil, brake fluid, coolant, and chain lube all matter \u2014 especially in South Florida heat.\n\nIf you're not sure when it was last serviced, let's check it.\n\n\ud83d\udcf2 754-333-7761\n\n#MotorcycleFluids #MotorcycleService #DeerfieldBeach",
       "topic": "fluids-service",
-      "status": "approved",
+      "status": "posted",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-03",
-      "posted_at": null,
+      "updated_at": "2026-06-06",
+      "posted_at": "2026-06-06",
       "notes": "Image prompt: Motorcycle oil/fluid service scene, clean containers/tools",
       "date": "2026-06-06",
       "image_prompt": "Motorcycle oil/fluid service scene, clean containers/tools"
@@ -201,17 +201,19 @@
       "platform": "instagram",
       "scheduled_date": "2026-06-06",
       "time_slot": "midday",
-      "image_url": "https://mcmasterlink.com/assets/social/mml-d4-midday-appointment-2026-06-06.png",
-      "image_path": "assets/social/mml-d4-midday-appointment-2026-06-06.png",
+      "image_url": "https://mcmasterlink.com/assets/social/mml-d4-midday-appointment-2026-06-06-r1-1780758770.png",
+      "image_path": "assets/social/mml-d4-midday-appointment-2026-06-06-r1-1780758770.png",
       "caption": "Appointments available for motorcycle maintenance and repair in Deerfield Beach.\n\nCall/text the shop line and tell us what bike you have and what's going on.\n\n\ud83d\udccd Motorcycle Master Link\n105 SE 7th St Unit 4, Deerfield Beach, FL\n\ud83d\udcf2 754-333-7761\n\n#MotorcycleRepair #DeerfieldBeach #MotorcycleService",
       "topic": "appointment-cta",
-      "status": "approved",
+      "status": "posted",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-04",
-      "posted_at": null,
-      "notes": "Image prompt: Realistic photo of a motorcycle on a service lift inside a clean repair shop, mechanic workbench in background, professional lighting, no graphics",
+      "updated_at": "2026-06-06",
+      "posted_at": "2026-06-06",
+      "notes": "Image prompt: Realistic photo of a motorcycle on a service lift inside a clean repair shop, mechanic workbench in background, professional lighting, no photos",
       "date": "2026-06-06",
-      "image_prompt": "Realistic photo of a motorcycle on a service lift inside a clean repair shop, mechanic workbench in background, professional lighting, no graphics"
+      "image_prompt": "Realistic photo of a motorcycle on a service lift inside a clean repair shop, mechanic workbench in background, professional lighting, no photos",
+      "regen_count": 1,
+      "last_regen_variation": "fresh alternate concept, no repeated composition from prior image"
     },
     {
       "id": "d4-evening-community",
@@ -223,10 +225,10 @@
       "image_path": "assets/social/mml-d4-evening-community-2026-06-06.png",
       "caption": "South Florida riders: what's your favorite local ride route?\n\nDrop a road, meetup spot, or weekend route in the comments.\n\n#SouthFloridaRiders #MotorcycleCommunity #DeerfieldBeach",
       "topic": "community-route",
-      "status": "approved",
+      "status": "posted",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-03",
-      "posted_at": null,
+      "updated_at": "2026-06-06",
+      "posted_at": "2026-06-06",
       "notes": "Image prompt: Motorcycle on scenic South Florida road near sunset",
       "date": "2026-06-06",
       "image_prompt": "Motorcycle on scenic South Florida road near sunset"
