@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "posts": [
     {
       "id": "upload-1780861820953-0",
@@ -70,7 +70,7 @@
           "reach": null,
           "saves": null,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:20Z"
+          "last_synced_at": "2026-06-17T13:15:19Z"
         },
         "facebook": {
           "status": "ok",
@@ -84,16 +84,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:21Z"
+          "last_synced_at": "2026-06-17T13:15:20Z"
         },
         "total": {
           "likes": 1,
           "comments": 0,
           "shares": 0,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:21Z"
+          "last_synced_at": "2026-06-17T13:15:21Z"
         },
-        "last_synced_at": "2026-06-16T13:15:21Z"
+        "last_synced_at": "2026-06-17T13:15:21Z"
       },
       "publish_attempts": [
         {
@@ -200,7 +200,7 @@
           "reach": null,
           "saves": null,
           "score": 2,
-          "last_synced_at": "2026-06-16T13:15:21Z"
+          "last_synced_at": "2026-06-17T13:15:22Z"
         },
         "facebook": {
           "status": "ok",
@@ -214,16 +214,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:22Z"
+          "last_synced_at": "2026-06-17T13:15:22Z"
         },
         "total": {
           "likes": 2,
           "comments": 0,
           "shares": 0,
           "score": 2,
-          "last_synced_at": "2026-06-16T13:15:22Z"
+          "last_synced_at": "2026-06-17T13:15:22Z"
         },
-        "last_synced_at": "2026-06-16T13:15:22Z"
+        "last_synced_at": "2026-06-17T13:15:22Z"
       },
       "publish_attempts": [
         {
@@ -329,7 +329,7 @@
           "reach": null,
           "saves": null,
           "score": 2,
-          "last_synced_at": "2026-06-16T13:15:22Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
         "facebook": {
           "status": "ok",
@@ -343,16 +343,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
         "total": {
           "likes": 2,
           "comments": 0,
           "shares": 0,
           "score": 2,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -436,9 +436,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -648,9 +648,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -725,9 +725,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -805,9 +805,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -885,9 +885,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -963,9 +963,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -1041,9 +1041,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -1119,9 +1119,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -1197,9 +1197,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -1277,9 +1277,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -1355,9 +1355,9 @@
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
-        "last_synced_at": "2026-06-16T13:15:23Z"
+        "last_synced_at": "2026-06-17T13:15:23Z"
       },
       "publish_attempts": [],
       "last_publish_error": null,
@@ -1443,7 +1443,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:23Z"
+          "last_synced_at": "2026-06-17T13:15:23Z"
         },
         "facebook": {
           "status": "ok",
@@ -1457,16 +1457,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:24Z"
+          "last_synced_at": "2026-06-17T13:15:24Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:24Z"
+          "last_synced_at": "2026-06-17T13:15:24Z"
         },
-        "last_synced_at": "2026-06-16T13:15:24Z"
+        "last_synced_at": "2026-06-17T13:15:24Z"
       },
       "publish_attempts": [
         {
@@ -1565,7 +1565,7 @@
           "reach": null,
           "saves": null,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:24Z"
+          "last_synced_at": "2026-06-17T13:15:24Z"
         },
         "facebook": {
           "status": "ok",
@@ -1579,16 +1579,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:25Z"
+          "last_synced_at": "2026-06-17T13:15:25Z"
         },
         "total": {
           "likes": 1,
           "comments": 0,
           "shares": 0,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:25Z"
+          "last_synced_at": "2026-06-17T13:15:25Z"
         },
-        "last_synced_at": "2026-06-16T13:15:25Z"
+        "last_synced_at": "2026-06-17T13:15:25Z"
       },
       "publish_attempts": [
         {
@@ -1693,7 +1693,7 @@
           "reach": null,
           "saves": null,
           "score": 2,
-          "last_synced_at": "2026-06-16T13:15:25Z"
+          "last_synced_at": "2026-06-17T13:15:25Z"
         },
         "facebook": {
           "status": "ok",
@@ -1707,16 +1707,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:26Z"
+          "last_synced_at": "2026-06-17T13:15:26Z"
         },
         "total": {
           "likes": 2,
           "comments": 0,
           "shares": 0,
           "score": 2,
-          "last_synced_at": "2026-06-16T13:15:26Z"
+          "last_synced_at": "2026-06-17T13:15:26Z"
         },
-        "last_synced_at": "2026-06-16T13:15:26Z"
+        "last_synced_at": "2026-06-17T13:15:26Z"
       },
       "publish_attempts": [
         {
@@ -1814,7 +1814,7 @@
           "reach": null,
           "saves": null,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:26Z"
+          "last_synced_at": "2026-06-17T13:15:27Z"
         },
         "facebook": {
           "status": "ok",
@@ -1828,16 +1828,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:27Z"
+          "last_synced_at": "2026-06-17T13:15:28Z"
         },
         "total": {
           "likes": 1,
           "comments": 0,
           "shares": 0,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:27Z"
+          "last_synced_at": "2026-06-17T13:15:28Z"
         },
-        "last_synced_at": "2026-06-16T13:15:27Z"
+        "last_synced_at": "2026-06-17T13:15:28Z"
       },
       "publish_attempts": [
         {
@@ -1873,14 +1873,14 @@
       "platform": "instagram",
       "scheduled_date": "2026-06-17",
       "time_slot": "morning",
-      "image_url": "https://mcmasterlink.com/assets/social/mml-d6-midday-service-menu-2026-06-08-r4-1780597313.png",
-      "image_path": "assets/social/mml-d6-midday-service-menu-2026-06-08-r4-1780597313.png",
+      "image_url": "https://mcmasterlink.com/assets/social/mml-d6-midday-service-menu-2026-06-08-r4-1780597313-ig.jpg",
+      "image_path": "assets/social/mml-d6-midday-service-menu-2026-06-08-r4-1780597313-ig.jpg",
       "caption": "Motorcycle Master Link service list:\n\n\u2705 Maintenance\n\u2705 Diagnostics\n\u2705 Tires\n\u2705 Brakes\n\u2705 Fluids\n\u2705 Chain/sprockets\n\u2705 General repair\n\n\ud83d\udccd 105 SE 7th St Unit 4, Deerfield Beach\n\ud83d\udcf2 754-333-7761\n\n#MotorcycleShop #DeerfieldBeach #MotorcycleService",
       "topic": "service-menu",
-      "status": "approved",
+      "status": "posted",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-10",
-      "posted_at": null,
+      "updated_at": "2026-06-17",
+      "posted_at": "2026-06-17",
       "notes": "Image prompt: Wide realistic photo of an organized motorcycle service bay with bike on lift, tools, tires, oil bottles, and brake parts visible, no photos",
       "date": "2026-06-08",
       "image_prompt": "Wide realistic photo of an organized motorcycle service bay with bike on lift, tools, tires, oil bottles, and brake parts visible, no photos",
@@ -1903,10 +1903,16 @@
       },
       "platforms": {
         "instagram": {
-          "status": "pending"
+          "status": "posted",
+          "media_id": "18079705283266838",
+          "creation_id": "18553743691064620",
+          "posted_at": "2026-06-17"
         },
         "facebook": {
-          "status": "pending"
+          "status": "posted",
+          "post_id": "249094235127703_1309231668064072",
+          "photo_id": "1309231641397408",
+          "posted_at": "2026-06-17"
         },
         "gbp": {
           "status": "pending"
@@ -1918,9 +1924,51 @@
         "shares": null,
         "reach": null,
         "saves": null,
-        "clicks": null
+        "clicks": null,
+        "instagram": {
+          "status": "ok",
+          "media_id": "18079705283266838",
+          "permalink": "https://www.instagram.com/p/DZr6v1UjXho/",
+          "media_type": "IMAGE",
+          "posted_at": "2026-06-17T12:00:18+0000",
+          "likes": 0,
+          "comments": 0,
+          "shares": null,
+          "reach": null,
+          "saves": null,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:29Z"
+        },
+        "facebook": {
+          "status": "ok",
+          "post_id": "249094235127703_1309231668064072",
+          "permalink": "https://www.facebook.com/1301127478874491/posts/1309231668064072",
+          "posted_at": "2026-06-17T12:00:23+0000",
+          "likes": 0,
+          "reactions": 0,
+          "comments": 0,
+          "shares": 0,
+          "reach": null,
+          "saves": null,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:29Z"
+        },
+        "total": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:29Z"
+        },
+        "last_synced_at": "2026-06-17T13:15:29Z"
       },
-      "publish_attempts": [],
+      "publish_attempts": [
+        {
+          "at": "2026-06-17T12:00:12Z",
+          "date": "2026-06-17",
+          "slot": "morning"
+        }
+      ],
       "last_publish_error": null,
       "duplicate_risk": "unknown",
       "caption_instagram": "Motorcycle Master Link service list:\n\n\u2705 Maintenance\n\u2705 Diagnostics\n\u2705 Tires\n\u2705 Brakes\n\u2705 Fluids\n\u2705 Chain/sprockets\n\u2705 General repair\n\n\ud83d\udccd 105 SE 7th St Unit 4, Deerfield Beach\n\ud83d\udcf2 754-333-7761\n\n#MotorcycleShop #DeerfieldBeach #MotorcycleService",
@@ -1937,7 +1985,10 @@
           "service:brake_service",
           "category:safety"
         ]
-      }
+      },
+      "original_image_url": "https://mcmasterlink.com/assets/social/mml-d6-midday-service-menu-2026-06-08-r4-1780597313.png",
+      "instagram_media_id": "18079705283266838",
+      "facebook_post_id": "249094235127703_1309231668064072"
     },
     {
       "id": "d6-evening-comment-bait",
@@ -2007,7 +2058,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:27Z"
+          "last_synced_at": "2026-06-17T13:15:29Z"
         },
         "facebook": {
           "status": "ok",
@@ -2021,16 +2072,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:28Z"
+          "last_synced_at": "2026-06-17T13:15:30Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:28Z"
+          "last_synced_at": "2026-06-17T13:15:30Z"
         },
-        "last_synced_at": "2026-06-16T13:15:28Z"
+        "last_synced_at": "2026-06-17T13:15:30Z"
       },
       "publish_attempts": [
         {
@@ -2063,14 +2114,14 @@
       "platform": "instagram",
       "scheduled_date": "2026-06-17",
       "time_slot": "midday",
-      "image_url": "https://mcmasterlink.com/assets/social/mml-d7-morning-checklist-2026-06-09-r1-1780595828.png",
-      "image_path": "assets/social/mml-d7-morning-checklist-2026-06-09-r1-1780595828.png",
+      "image_url": "https://mcmasterlink.com/assets/social/mml-d7-morning-checklist-2026-06-09-r1-1780595828-ig.jpg",
+      "image_path": "assets/social/mml-d7-morning-checklist-2026-06-09-r1-1780595828-ig.jpg",
       "caption": "Quick motorcycle maintenance checklist:\n\n- Tires\n- Brakes\n- Chain/sprockets\n- Fluids\n- Battery\n- Lights\n- Leaks/noises\n\nIf something feels off, get it checked before it becomes expensive.\n\n\ud83d\udcf2 754-333-7761\n\n#MotorcycleChecklist #MotorcycleRepair #DeerfieldBeach",
       "topic": "7pt-checklist",
-      "status": "approved",
+      "status": "posted",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-10",
-      "posted_at": null,
+      "updated_at": "2026-06-17",
+      "posted_at": "2026-06-17",
       "notes": "Image prompt: Realistic close-up photo of a mechanic inspecting a motorcycle wheel and brake area with tools nearby, no graphics",
       "date": "2026-06-09",
       "image_prompt": "Realistic close-up photo of a mechanic inspecting a motorcycle wheel and brake area with tools nearby, no graphics",
@@ -2093,10 +2144,16 @@
       },
       "platforms": {
         "instagram": {
-          "status": "pending"
+          "status": "posted",
+          "media_id": "18117352330840153",
+          "creation_id": "18553794526064620",
+          "posted_at": "2026-06-17"
         },
         "facebook": {
-          "status": "pending"
+          "status": "posted",
+          "post_id": "249094235127703_1309393994714506",
+          "photo_id": "1309393864714519",
+          "posted_at": "2026-06-17"
         },
         "gbp": {
           "status": "pending"
@@ -2110,7 +2167,13 @@
         "saves": null,
         "clicks": null
       },
-      "publish_attempts": [],
+      "publish_attempts": [
+        {
+          "at": "2026-06-17T16:00:12Z",
+          "date": "2026-06-17",
+          "slot": "midday"
+        }
+      ],
       "last_publish_error": null,
       "duplicate_risk": "unknown",
       "caption_instagram": "Quick motorcycle maintenance checklist:\n\n- Tires\n- Brakes\n- Chain/sprockets\n- Fluids\n- Battery\n- Lights\n- Leaks/noises\n\nIf something feels off, get it checked before it becomes expensive.\n\n\ud83d\udcf2 754-333-7761\n\n#MotorcycleChecklist #MotorcycleRepair #DeerfieldBeach",
@@ -2127,7 +2190,10 @@
           "service:electrical_diagnostic",
           "category:diagnostics"
         ]
-      }
+      },
+      "original_image_url": "https://mcmasterlink.com/assets/social/mml-d7-morning-checklist-2026-06-09-r1-1780595828.png",
+      "instagram_media_id": "18117352330840153",
+      "facebook_post_id": "249094235127703_1309393994714506"
     },
     {
       "id": "d7-midday-booking-cta",
@@ -2135,14 +2201,14 @@
       "platform": "instagram",
       "scheduled_date": "2026-06-17",
       "time_slot": "evening",
-      "image_url": "https://mcmasterlink.com/assets/social/mml-d7-midday-booking-cta-2026-06-09.png",
-      "image_path": "assets/social/mml-d7-midday-booking-cta-2026-06-09.png",
+      "image_url": "https://mcmasterlink.com/assets/social/mml-d7-midday-booking-cta-2026-06-09-ig.jpg",
+      "image_path": "assets/social/mml-d7-midday-booking-cta-2026-06-09-ig.jpg",
       "caption": "Need your bike looked at this week?\n\nText Motorcycle Master Link with:\n1. Your name\n2. Bike year/make/model\n3. What's going on\n4. When you want to bring it by\n\n\ud83d\udcf2 754-333-7761\n\ud83d\udccd Deerfield Beach, FL\n\n#MotorcycleRepair #BookNow #DeerfieldBeach",
       "topic": "direct-booking",
-      "status": "approved",
+      "status": "posted",
       "created_at": "2026-06-03",
-      "updated_at": "2026-06-10",
-      "posted_at": null,
+      "updated_at": "2026-06-17",
+      "posted_at": "2026-06-17",
       "notes": "Image prompt: Realistic photo of a motorcycle parked outside a small repair shop with a smartphone on a workbench nearby, no graphics",
       "date": "2026-06-09",
       "image_prompt": "Realistic photo of a motorcycle parked outside a small repair shop with a smartphone on a workbench nearby, no graphics",
@@ -2163,10 +2229,16 @@
       },
       "platforms": {
         "instagram": {
-          "status": "pending"
+          "status": "posted",
+          "media_id": "18108773167755008",
+          "creation_id": "18553879774064620",
+          "posted_at": "2026-06-17"
         },
         "facebook": {
-          "status": "pending"
+          "status": "posted",
+          "post_id": "249094235127703_1309632491357323",
+          "photo_id": "1309632461357326",
+          "posted_at": "2026-06-17"
         },
         "gbp": {
           "status": "pending"
@@ -2180,7 +2252,13 @@
         "saves": null,
         "clicks": null
       },
-      "publish_attempts": [],
+      "publish_attempts": [
+        {
+          "at": "2026-06-17T23:00:14Z",
+          "date": "2026-06-17",
+          "slot": "evening"
+        }
+      ],
       "last_publish_error": null,
       "duplicate_risk": "unknown",
       "caption_instagram": "Need your bike looked at this week?\n\nText Motorcycle Master Link with:\n1. Your name\n2. Bike year/make/model\n3. What's going on\n4. When you want to bring it by\n\n\ud83d\udcf2 754-333-7761\n\ud83d\udccd Deerfield Beach, FL\n\n#MotorcycleRepair #BookNow #DeerfieldBeach",
@@ -2197,7 +2275,10 @@
         "signals": [
           "category:booking_cta"
         ]
-      }
+      },
+      "original_image_url": "https://mcmasterlink.com/assets/social/mml-d7-midday-booking-cta-2026-06-09.png",
+      "instagram_media_id": "18108773167755008",
+      "facebook_post_id": "249094235127703_1309632491357323"
     },
     {
       "id": "d7-evening-brand-close",
@@ -6939,7 +7020,7 @@
           "reach": null,
           "saves": null,
           "score": 5,
-          "last_synced_at": "2026-06-16T13:15:28Z"
+          "last_synced_at": "2026-06-17T13:15:30Z"
         },
         "facebook": {
           "status": "ok",
@@ -6953,16 +7034,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:28Z"
+          "last_synced_at": "2026-06-17T13:15:31Z"
         },
         "total": {
           "likes": 2,
           "comments": 1,
           "shares": 0,
           "score": 5,
-          "last_synced_at": "2026-06-16T13:15:29Z"
+          "last_synced_at": "2026-06-17T13:15:31Z"
         },
-        "last_synced_at": "2026-06-16T13:15:29Z"
+        "last_synced_at": "2026-06-17T13:15:31Z"
       },
       "publish_attempts": [
         {
@@ -7099,7 +7180,7 @@
           "reach": null,
           "saves": null,
           "score": 9,
-          "last_synced_at": "2026-06-16T13:15:29Z"
+          "last_synced_at": "2026-06-17T13:15:31Z"
         },
         "facebook": {
           "status": "ok",
@@ -7113,16 +7194,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:29Z"
+          "last_synced_at": "2026-06-17T13:15:32Z"
         },
         "total": {
           "likes": 9,
           "comments": 0,
           "shares": 0,
           "score": 9,
-          "last_synced_at": "2026-06-16T13:15:29Z"
+          "last_synced_at": "2026-06-17T13:15:32Z"
         },
-        "last_synced_at": "2026-06-16T13:15:29Z"
+        "last_synced_at": "2026-06-17T13:15:32Z"
       },
       "publish_attempts": [
         {
@@ -7229,7 +7310,7 @@
           "reach": null,
           "saves": null,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:30Z"
+          "last_synced_at": "2026-06-17T13:15:32Z"
         },
         "facebook": {
           "status": "ok",
@@ -7243,16 +7324,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:30Z"
+          "last_synced_at": "2026-06-17T13:15:32Z"
         },
         "total": {
           "likes": 1,
           "comments": 0,
           "shares": 0,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:30Z"
+          "last_synced_at": "2026-06-17T13:15:33Z"
         },
-        "last_synced_at": "2026-06-16T13:15:30Z"
+        "last_synced_at": "2026-06-17T13:15:33Z"
       },
       "publish_attempts": [
         {
@@ -7358,7 +7439,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:31Z"
+          "last_synced_at": "2026-06-17T13:15:33Z"
         },
         "facebook": {
           "status": "ok",
@@ -7372,16 +7453,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:31Z"
+          "last_synced_at": "2026-06-17T13:15:33Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:31Z"
+          "last_synced_at": "2026-06-17T13:15:33Z"
         },
-        "last_synced_at": "2026-06-16T13:15:31Z"
+        "last_synced_at": "2026-06-17T13:15:33Z"
       },
       "publish_attempts": [
         {
@@ -7489,7 +7570,7 @@
           "reach": null,
           "saves": null,
           "score": 13,
-          "last_synced_at": "2026-06-16T13:15:32Z"
+          "last_synced_at": "2026-06-17T13:15:34Z"
         },
         "facebook": {
           "status": "ok",
@@ -7503,16 +7584,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:32Z"
+          "last_synced_at": "2026-06-17T13:15:34Z"
         },
         "total": {
           "likes": 10,
           "comments": 1,
           "shares": 0,
           "score": 13,
-          "last_synced_at": "2026-06-16T13:15:32Z"
+          "last_synced_at": "2026-06-17T13:15:34Z"
         },
-        "last_synced_at": "2026-06-16T13:15:32Z"
+        "last_synced_at": "2026-06-17T13:15:34Z"
       },
       "publish_attempts": [
         {
@@ -7623,7 +7704,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:33Z"
+          "last_synced_at": "2026-06-17T13:15:35Z"
         },
         "facebook": {
           "status": "ok",
@@ -7637,16 +7718,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:34Z"
+          "last_synced_at": "2026-06-17T13:15:35Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:34Z"
+          "last_synced_at": "2026-06-17T13:15:36Z"
         },
-        "last_synced_at": "2026-06-16T13:15:34Z"
+        "last_synced_at": "2026-06-17T13:15:36Z"
       },
       "publish_attempts": [
         {
@@ -7843,7 +7924,7 @@
           "reach": null,
           "saves": null,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:34Z"
+          "last_synced_at": "2026-06-17T13:15:36Z"
         },
         "facebook": {
           "status": "ok",
@@ -7857,16 +7938,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:35Z"
+          "last_synced_at": "2026-06-17T13:15:36Z"
         },
         "total": {
           "likes": 1,
           "comments": 0,
           "shares": 0,
           "score": 1,
-          "last_synced_at": "2026-06-16T13:15:35Z"
+          "last_synced_at": "2026-06-17T13:15:36Z"
         },
-        "last_synced_at": "2026-06-16T13:15:35Z"
+        "last_synced_at": "2026-06-17T13:15:36Z"
       },
       "publish_attempts": [
         {
@@ -7972,7 +8053,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:35Z"
+          "last_synced_at": "2026-06-17T13:15:37Z"
         },
         "facebook": {
           "status": "ok",
@@ -7986,16 +8067,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:36Z"
+          "last_synced_at": "2026-06-17T13:15:38Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:36Z"
+          "last_synced_at": "2026-06-17T13:15:38Z"
         },
-        "last_synced_at": "2026-06-16T13:15:36Z"
+        "last_synced_at": "2026-06-17T13:15:38Z"
       },
       "publish_attempts": [
         {
@@ -8106,7 +8187,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:37Z"
+          "last_synced_at": "2026-06-17T13:15:38Z"
         },
         "facebook": {
           "status": "ok",
@@ -8120,16 +8201,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:39Z"
+          "last_synced_at": "2026-06-17T13:15:39Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:39Z"
+          "last_synced_at": "2026-06-17T13:15:39Z"
         },
-        "last_synced_at": "2026-06-16T13:15:39Z"
+        "last_synced_at": "2026-06-17T13:15:39Z"
       },
       "publish_attempts": [
         {
@@ -8240,7 +8321,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:39Z"
+          "last_synced_at": "2026-06-17T13:15:39Z"
         },
         "facebook": {
           "status": "ok",
@@ -8254,16 +8335,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:40Z"
+          "last_synced_at": "2026-06-17T13:15:39Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:40Z"
+          "last_synced_at": "2026-06-17T13:15:40Z"
         },
-        "last_synced_at": "2026-06-16T13:15:40Z"
+        "last_synced_at": "2026-06-17T13:15:40Z"
       },
       "publish_attempts": [
         {
@@ -8369,7 +8450,7 @@
           "reach": null,
           "saves": null,
           "score": 2,
-          "last_synced_at": "2026-06-16T13:15:40Z"
+          "last_synced_at": "2026-06-17T13:15:42Z"
         },
         "facebook": {
           "status": "ok",
@@ -8383,16 +8464,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:41Z"
+          "last_synced_at": "2026-06-17T13:15:42Z"
         },
         "total": {
           "likes": 2,
           "comments": 0,
           "shares": 0,
           "score": 2,
-          "last_synced_at": "2026-06-16T13:15:41Z"
+          "last_synced_at": "2026-06-17T13:15:42Z"
         },
-        "last_synced_at": "2026-06-16T13:15:41Z"
+        "last_synced_at": "2026-06-17T13:15:42Z"
       },
       "publish_attempts": [
         {
@@ -8498,7 +8579,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:41Z"
+          "last_synced_at": "2026-06-17T13:15:43Z"
         },
         "facebook": {
           "status": "ok",
@@ -8512,16 +8593,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:42Z"
+          "last_synced_at": "2026-06-17T13:15:43Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:42Z"
+          "last_synced_at": "2026-06-17T13:15:43Z"
         },
-        "last_synced_at": "2026-06-16T13:15:42Z"
+        "last_synced_at": "2026-06-17T13:15:43Z"
       },
       "publish_attempts": [
         {
@@ -8627,7 +8708,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:42Z"
+          "last_synced_at": "2026-06-17T13:15:44Z"
         },
         "facebook": {
           "status": "ok",
@@ -8641,16 +8722,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:42Z"
+          "last_synced_at": "2026-06-17T13:15:44Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:43Z"
+          "last_synced_at": "2026-06-17T13:15:44Z"
         },
-        "last_synced_at": "2026-06-16T13:15:43Z"
+        "last_synced_at": "2026-06-17T13:15:44Z"
       },
       "publish_attempts": [
         {
@@ -8756,7 +8837,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:43Z"
+          "last_synced_at": "2026-06-17T13:15:46Z"
         },
         "facebook": {
           "status": "ok",
@@ -8770,16 +8851,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:43Z"
+          "last_synced_at": "2026-06-17T13:15:46Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:43Z"
+          "last_synced_at": "2026-06-17T13:15:47Z"
         },
-        "last_synced_at": "2026-06-16T13:15:43Z"
+        "last_synced_at": "2026-06-17T13:15:47Z"
       },
       "publish_attempts": [
         {
@@ -8885,7 +8966,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:44Z"
+          "last_synced_at": "2026-06-17T13:15:47Z"
         },
         "facebook": {
           "status": "ok",
@@ -8899,16 +8980,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:44Z"
+          "last_synced_at": "2026-06-17T13:15:47Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:44Z"
+          "last_synced_at": "2026-06-17T13:15:47Z"
         },
-        "last_synced_at": "2026-06-16T13:15:44Z"
+        "last_synced_at": "2026-06-17T13:15:47Z"
       },
       "publish_attempts": [
         {
@@ -9014,7 +9095,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:45Z"
+          "last_synced_at": "2026-06-17T13:15:48Z"
         },
         "facebook": {
           "status": "ok",
@@ -9028,16 +9109,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:45Z"
+          "last_synced_at": "2026-06-17T13:15:48Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:45Z"
+          "last_synced_at": "2026-06-17T13:15:48Z"
         },
-        "last_synced_at": "2026-06-16T13:15:45Z"
+        "last_synced_at": "2026-06-17T13:15:48Z"
       },
       "publish_attempts": [
         {
@@ -9143,7 +9224,7 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:46Z"
+          "last_synced_at": "2026-06-17T13:15:49Z"
         },
         "facebook": {
           "status": "ok",
@@ -9157,16 +9238,16 @@
           "reach": null,
           "saves": null,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:46Z"
+          "last_synced_at": "2026-06-17T13:15:49Z"
         },
         "total": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "score": 0,
-          "last_synced_at": "2026-06-16T13:15:46Z"
+          "last_synced_at": "2026-06-17T13:15:49Z"
         },
-        "last_synced_at": "2026-06-16T13:15:46Z"
+        "last_synced_at": "2026-06-17T13:15:49Z"
       },
       "publish_attempts": [
         {
@@ -9259,7 +9340,43 @@
         "shares": null,
         "reach": null,
         "saves": null,
-        "clicks": null
+        "clicks": null,
+        "instagram": {
+          "status": "ok",
+          "media_id": "18100808831129705",
+          "permalink": "https://www.instagram.com/p/DZpxaMJEXlL/",
+          "media_type": "IMAGE",
+          "posted_at": "2026-06-16T16:00:14+0000",
+          "likes": 0,
+          "comments": 0,
+          "shares": null,
+          "reach": null,
+          "saves": null,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:50Z"
+        },
+        "facebook": {
+          "status": "ok",
+          "post_id": "249094235127703_1308559891464583",
+          "permalink": "https://www.facebook.com/1301127478874491/posts/1308559891464583",
+          "posted_at": "2026-06-16T16:00:19+0000",
+          "likes": 0,
+          "reactions": 0,
+          "comments": 0,
+          "shares": 0,
+          "reach": null,
+          "saves": null,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:50Z"
+        },
+        "total": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:50Z"
+        },
+        "last_synced_at": "2026-06-17T13:15:50Z"
       },
       "publish_attempts": [
         {
@@ -9352,7 +9469,43 @@
         "shares": null,
         "reach": null,
         "saves": null,
-        "clicks": null
+        "clicks": null,
+        "instagram": {
+          "status": "ok",
+          "media_id": "17875958187672631",
+          "permalink": "https://www.instagram.com/p/DZqhedYFU6A/",
+          "media_type": "IMAGE",
+          "posted_at": "2026-06-16T23:00:20+0000",
+          "likes": 0,
+          "comments": 0,
+          "shares": null,
+          "reach": null,
+          "saves": null,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:50Z"
+        },
+        "facebook": {
+          "status": "ok",
+          "post_id": "249094235127703_1308795601441012",
+          "permalink": "https://www.facebook.com/1301127478874491/posts/1308795601441012",
+          "posted_at": "2026-06-16T23:00:24+0000",
+          "likes": 0,
+          "reactions": 0,
+          "comments": 0,
+          "shares": 0,
+          "reach": null,
+          "saves": null,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:51Z"
+        },
+        "total": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "score": 0,
+          "last_synced_at": "2026-06-17T13:15:51Z"
+        },
+        "last_synced_at": "2026-06-17T13:15:51Z"
       },
       "publish_attempts": [
         {
@@ -9367,7 +9520,7 @@
       "facebook_post_id": "249094235127703_1308795601441012"
     }
   ],
-  "metrics_synced_at": "2026-06-16T13:15:46Z",
+  "metrics_synced_at": "2026-06-17T13:15:51Z",
   "last_recommendation_snapshot": {
     "created_at": "2026-06-10T20:00:23.202Z",
     "reason": "before_apply_recommendation",
